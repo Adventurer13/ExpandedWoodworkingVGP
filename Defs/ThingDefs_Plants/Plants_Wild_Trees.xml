@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Plants>
+
+<!-- Wild Fruit Trees -->
+
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Apple</thingClass>
+		<defName>WildAppletree</defName>
+		<label>apple tree</label>
+		<description>A fruit bearing tree that grows apples and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/appleTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>13</growDays>
+			<harvestedThingDef>Rawapple</harvestedThingDef>
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/appleTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+	  
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Orange</thingClass>
+		<defName>WildorangeTree</defName>
+		<label>orange tree</label>
+		<description>A fruit bearing tree that grows oranges and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/orangeTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>13</growDays>
+			<harvestedThingDef>Raworange</harvestedThingDef>
+			<wildBiomes>
+				<TropicalRainforest>0.01</TropicalRainforest>    		
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/orangeTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Peach</thingClass>
+		<defName>WildPeachTree</defName>
+		<label>peach tree</label>
+		<description>A fruit bearing tree that grows peaches and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/peachTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>13</growDays>
+			<harvestedThingDef>Rawpeach</harvestedThingDef>
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+				<TropicalRainforest>0.01</TropicalRainforest>    		
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/peachTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+
+
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.DatePalm</thingClass>
+		<defName>WildDateTree</defName>
+		<label>date palm tree</label>
+		<description>A fruit bearing tree that grows dates and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/DateTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>12</growDays>
+			<harvestedThingDef>Rawdate</harvestedThingDef>
+			<wildBiomes>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/DateTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Fig</thingClass>
+		<defName>WildFigTree</defName>
+		<label>fig tree</label>
+		<description>A fruit bearing tree that grows figs and is not destroyed when picked.</description>
+		<graphicData>
+		  <texPath>Things/Plants/FigTree</texPath>
+		  <graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>12</growDays>
+			<harvestedThingDef>Rawfig</harvestedThingDef>
+			<wildBiomes>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/FigTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Coconut</thingClass>
+		<defName>WildCoconuttree</defName>
+		<label>coconut tree</label>
+		<description>A fruit bearing tree that grows coconuts and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Tree/TreeCoconut</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>14</growDays>
+			<harvestedThingDef>RawCoconut</harvestedThingDef>
+			<wildBiomes>
+				<TropicalRainforest>0.01</TropicalRainforest>    		
+			</wildBiomes>
+		</plant>
+	</ThingDef>
+
+
+
+</Plants>
