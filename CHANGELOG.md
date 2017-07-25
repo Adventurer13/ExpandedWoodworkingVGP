@@ -8,9 +8,6 @@
 - Brought the rarity of trees in-line with how Vegetable Garden has it. (Let me know if you think this is too few.)
 - Some code changes to reflect changes made in Vegetable Garden.
 
-### Fixed
-- Duplication exploit which resulted in more lumber than was used when bundling various lumber.
-
 ## [0.17.0.1] - 2017-07-20
 ### New
 - Updated to work with A17.
