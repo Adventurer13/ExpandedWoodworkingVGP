@@ -1,6 +1,10 @@
 # Change Log
 
-**Current:** [v0.17.0.2](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases/tag/v0.17.0.2)
+**Current:** [v0.17.0.3](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases/tag/v0.17.0.3)
+
+## [0.17.0.3] - 2017-07-31
+### Removed
+- Ironwood as a fuel.
 
 ## [0.17.0.2] - 2017-07-20
 ### New
