@@ -1,6 +1,12 @@
 # Change Log
 
-**Current:** [v0.17.0.3](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases/tag/v0.17.0.3)
+**Current:** [v0.17.0.4](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases/tag/v0.17.0.4)
+
+## [0.17.0.4] - 2017-08-09
+### New
+- Updates to C sharp code to iron out any issues that may be caused by old.
+- Source is actually now available (Only on Github). Respect attached license!
+- Including Changelog & Readme in Steam releases.
 
 ## [0.17.0.3] - 2017-07-31
 ### Removed

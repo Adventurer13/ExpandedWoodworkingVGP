@@ -1,6 +1,6 @@
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![RimWorld Alpha 17](https://img.shields.io/badge/RimWorld-Alpha 17-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld Alpha 17](https://img.shields.io/badge/RimWorld-Alpha_17-brightgreen.svg)](http://rimworldgame.com/)
 
 # Expanded Woodworking for Vegetable Garden
 An A17 update to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
