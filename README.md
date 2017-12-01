@@ -2,7 +2,7 @@
 
 [![RimWorld Beta 18](https://img.shields.io/badge/RimWorld-Beta_18-brightgreen.svg)](http://rimworldgame.com/)
 
-# Expanded Woodworking for Vegetable Garden
+# Expanded Woodworking for Vegetable Garden Project
 A B18 upgrade to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
 
 
