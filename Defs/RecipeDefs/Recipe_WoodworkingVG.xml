@@ -1,0 +1,221 @@
+﻿<Defs>
+	
+<!-- Abstracts -->	
+	
+	<RecipeDef Name="MakeWoodLumberBase" Abstract="True">
+		<jobString>Processing lumber from wood.</jobString>
+		<workAmount>500</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<targetCountAdjustment>15</targetCountAdjustment>
+		<recipeUsers>
+			<li>TableWoodworking</li>
+			<li>ElectricTableWoodworking</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<!-- VG Lumber -->		
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberIronwood</defName>
+		<label>make ironwood lumber</label>
+		<description>Process raw ironwood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VG_IronWoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VG_IronWoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberIronwood>30</LumberIronwood>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberApple</defName>
+		<label>make applewood lumber</label>
+		<description>Process raw applewood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Apple</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Apple</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberApple>30</LumberApple>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberCherry</defName>
+		<label>make cherrywood lumber</label>
+		<description>Process raw cherrywood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Cherry</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Cherry</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberCherry>30</LumberCherry>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberDatePalm</defName>
+		<label>make date palm lumber</label>
+		<description>Process raw date palm logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_DatePalm</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_DatePalm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberDatePalm>30</LumberDatePalm>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberFig</defName>
+		<label>make figwood lumber</label>
+		<description>Process raw figwood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Fig</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Fig</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberFig>30</LumberFig>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberOrange</defName>
+		<label>make orangewood lumber</label>
+		<description>Process raw orangewood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Orange</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Orange</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberOrange>30</LumberOrange>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberPeach</defName>
+		<label>make peach lumber</label>
+		<description>Process raw peachwood logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Peach</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Peach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberPeach>30</LumberPeach>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeWoodLumberBase">
+		<defName>MakeWoodLumberCoconut</defName>
+		<label>make red palm lumber</label>
+		<description>Process raw red palm logs into lumber for construction.</description>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog_Coconut</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog_Coconut</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LumberCoconut>30</LumberCoconut>
+		</products>
+	</RecipeDef>
+
+</Defs>

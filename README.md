@@ -1,9 +1,9 @@
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![RimWorld Alpha 17](https://img.shields.io/badge/RimWorld-Alpha_17-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld Beta 18](https://img.shields.io/badge/RimWorld-Beta_18-brightgreen.svg)](http://rimworldgame.com/)
 
 # Expanded Woodworking for Vegetable Garden
-An A17 update to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
+A B18 upgrade to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
 
 
 ## Installation
@@ -29,9 +29,9 @@ Expanded Woodworking for Vegetable Garden overwrites the following Vegetable Gar
 
 
 ## Found a Bug?
-Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Adventurer13/ExpandedWoodworkingVG/issues). Please provide your exported HugsLib log.
+Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Adventurer13/ExpandedWoodworkingVGP/issues). Please provide your exported HugsLib log.
 
 
 ## Older Versions
-All current and past A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases).
+All current and past A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
 All past A16 versions can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworkingVG/releases).

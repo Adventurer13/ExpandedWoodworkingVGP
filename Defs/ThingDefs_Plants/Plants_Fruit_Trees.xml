@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Cultivated Wood-Producing Fruit Trees -->
+
+	<ThingDef ParentName="VG_FruitTreeBase">
+		<thingClass>ExpandedWoodworkingVG.Apple</thingClass>
+		<defName>PlantAppletree</defName>
+		<label>apple tree</label>
+		<description>A fruit bearing tree that grows apples and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/appleTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>18</growDays>
+			<harvestedThingDef>Rawapple</harvestedThingDef>
+			<immatureGraphicPath>Things/Immature/appleTree</immatureGraphicPath>
+		</plant>		
+	</ThingDef>
+	
+	<!-- <ThingDef ParentName="VG_FruitTreeBase">  *Changed into no longer producing wood within VG*
+		<thingClass>ExpandedWoodworkingVG.Olive</thingClass>
+		<defName>PlantOlivetree</defName>
+		<label>olive tree</label>
+		<description>A fruit bearing tree that grows olives and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Tree/TreeOlive</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>18</growDays>
+			<harvestedThingDef>RawOlive</harvestedThingDef>
+		</plant>
+	</ThingDef>	-->
+	
+    <ThingDef ParentName="VG_FruitTreeBase">
+		<thingClass>ExpandedWoodworkingVG.Orange</thingClass>
+		<defName>PlantorangeTree</defName>
+		<label>orange tree</label>
+		<description>A fruit bearing tree that grows oranges and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/orangeTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>18</growDays>
+			<harvestedThingDef>Raworange</harvestedThingDef>
+			<immatureGraphicPath>Things/Immature/orangeTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="VG_FruitTreeBase">
+		<thingClass>ExpandedWoodworkingVG.Peach</thingClass>
+		<defName>PlantPeachTree</defName>
+		<label>peach tree</label>
+		<description>A fruit bearing tree that grows peaches and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Plants/peachTree</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>18</growDays>
+			<harvestedThingDef>Rawpeach</harvestedThingDef>
+			<immatureGraphicPath>Things/Immature/peachTree</immatureGraphicPath>
+		</plant>
+	</ThingDef>
+	
+	
+</Defs>

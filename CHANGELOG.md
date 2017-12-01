@@ -1,6 +1,22 @@
 # Change Log
 
-**Current:** [v0.17.0.4](https://github.com/Adventurer13/ExpandedWoodworkingVG/releases/tag/v0.17.0.4)
+**Current:** [v0.18.0.0b](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.0b)
+
+## [0.18.0.0b] Pre-release - 2017-12-01
+### New (save needed for B18)
+- Assembly updated.
+- With changes of Vegetable Garden to Vegetable Garden Project, changes are being made to how this mod is structured.
+- VGP Vegetable Garden mod is required.
+- VGP Xtra Trees and Flowers support is entirely through a patch, so it is not needed if you don't want to use it.
+- Support for Wood fired generator and VGP's bamboo campfire.
+- Just like in Expanded Woodworking, support for those same categories mentioned in its changelog has moved in a patch.
+- Individual lumber recipies! (looking for feedback on)
+
+### Removed
+- Compatibility with other mods (M13's and Zen Garden; compatibility in future update).
+- Support for whatever is not in the above two mentioned mods. (working on compatibility currently)
+- Olive tree producing wood (as a result of this change in VGP).
+- Original generator.
 
 ## [0.17.0.4] - 2017-08-09
 ### New

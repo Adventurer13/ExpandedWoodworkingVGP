@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Plants>
+<Defs>
 
 <!-- Wild Fruit Trees -->
 
@@ -120,6 +120,25 @@
 		</plant>
 	</ThingDef>
 
+	<ThingDef ParentName="VG_WildFruitTree">
+		<thingClass>ExpandedWoodworkingVG.Cherry</thingClass>
+		<defName>PlantCherrytree</defName>
+		<label>cherry tree</label>
+		<description>A fruit bearing tree that grows cherries and is not destroyed when picked.</description>
+		<graphicData>
+			<texPath>Things/Tree/TreeCherryFruit</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<growDays>18</growDays>
+			<harvestedThingDef>RawCherry</harvestedThingDef>
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+				<BorealForest>0.01</BorealForest>
+			</wildBiomes>
+			<immatureGraphicPath>Things/Immature/TreeCherryFruit</immatureGraphicPath>
+		</plant>
+	</ThingDef>	
 
 
-</Plants>
+</Defs>
