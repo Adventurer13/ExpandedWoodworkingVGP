@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<LumberIronwood.label>ironwood lumber</LumberIronwood.label>
+	<LumberIronwood.description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable hardwood.</LumberIronwood.description>
+	<LumberIronwood.stuffProps.stuffAdjective>ironwood</LumberIronwood.stuffProps.stuffAdjective>
+	
+	<LumberApple.label>applewood lumber</LumberApple.label>
+	<LumberApple.description>Processed applewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Applewood is a nondurable hardwood.</LumberApple.description>
+	<LumberApple.stuffProps.stuffAdjective>applewood</LumberApple.stuffProps.stuffAdjective>
+	
+	<LumberCherry.label>cherrywood lumber</LumberCherry.label>
+	<LumberCherry.description>Processed cherrywood lumber. Mostly useful for building long-lasting, simple structures and furniture. Cherrywood is a moderate to nondurable hardwood.</LumberCherry.description>
+	<LumberCherry.stuffProps.stuffAdjective>cherrywood</LumberCherry.stuffProps.stuffAdjective>
+	
+	<LumberDatePalm.label>date palm lumber</LumberDatePalm.label>
+	<LumberDatePalm.description>Processed date palm lumber. Mostly useful for building long-lasting, simple structures and furniture. Date palm is a durable wood.</LumberDatePalm.description>
+	<LumberDatePalm.stuffProps.stuffAdjective>date palm</LumberDatePalm.stuffProps.stuffAdjective>
+	
+	<LumberFig.label>figwood lumber</LumberFig.label>
+	<LumberFig.description>Processed figwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Figwood is a low to nondurable hardwood.</LumberFig.description>
+	<LumberFig.stuffProps.stuffAdjective>figwood</LumberFig.stuffProps.stuffAdjective>
+	
+	<LumberOrange.label>orangewood lumber</LumberOrange.label>
+	<LumberOrange.description>Processed orangewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Orangewood is a perishable hardwood.</LumberOrange.description>
+	<LumberOrange.stuffProps.stuffAdjective>orangewood</LumberOrange.stuffProps.stuffAdjective>
+	
+	<LumberPeach.label>peachwood lumber</LumberPeach.label>
+	<LumberPeach.description>Processed peachwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Peachwood is a low to nondurable hardwood.</LumberPeach.description>
+	<LumberPeach.stuffProps.stuffAdjective>peachwood</LumberPeach.stuffProps.stuffAdjective>
+	
+	<LumberCoconut.label>red palm lumber</LumberCoconut.label>
+	<LumberCoconut.description>Processed red palm lumber. Mostly useful for building long-lasting, simple structures and furniture. Red palm is a durable wood.</LumberCoconut.description>
+	<LumberCoconut.stuffProps.stuffAdjective>red palm</LumberCoconut.stuffProps.stuffAdjective>
+	
+<!-- Uncomment section below if using 'VGP Xtra Trees and Flowers' (<-This comment to the left should be translated too!) -->	
+<!--
+	<LumberAcacia.label>acacia lumber</LumberAcacia.label>
+	<LumberAcacia.description>Processed acacia lumber. Mostly useful for building long-lasting, simple structures and furniture. Acacia is a very durable hardwood.</LumberAcacia.description>
+	<LumberAcacia.stuffProps.stuffAdjective>acacia</LumberAcacia.stuffProps.stuffAdjective>
+	
+	<LumberCamellia.label>camellia lumber</LumberCamellia.label>
+	<LumberCamellia.description>Processed camellia lumber. Mostly useful for building long-lasting, simple structures and furniture. Camellia is a perishable hardwood.</LumberCamellia.description>
+	<LumberCamellia.stuffProps.stuffAdjective>camellia</LumberCamellia.stuffProps.stuffAdjective>
+	
+	<LumberCherryBlossom.label>cherry blossom lumber</LumberCherryBlossom.label>
+	<LumberCherryBlossom.description>Processed cherry blossom lumber. Mostly useful for building long-lasting, simple structures and furniture. Cherry blossom is a moderate to nondurable hardwood.</LumberCherryBlossom.description>
+	<LumberCherryBlossom.stuffProps.stuffAdjective>cherry blossom</LumberCherryBlossom.stuffProps.stuffAdjective>
+	
+	<LumberJapaneseMaple.label>japanese maple lumber</LumberJapaneseMaple.label>
+	<LumberJapaneseMaple.description>Processed japanese maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Japanese maple is a nondurable to perishable hardwood.</LumberJapaneseMaple.description>
+	<LumberJapaneseMaple.stuffProps.stuffAdjective>japanese maple</LumberJapaneseMaple.stuffProps.stuffAdjective>
+	
+	<LumberRedMaple.label>red maple lumber</LumberRedMaple.label>
+	<LumberRedMaple.description>Processed red maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Red maple is a nondurable to perishable hardwood.</LumberRedMaple.description>
+	<LumberRedMaple.stuffProps.stuffAdjective>red maple</LumberRedMaple.stuffProps.stuffAdjective>
+-->
+	
+</LanguageData>

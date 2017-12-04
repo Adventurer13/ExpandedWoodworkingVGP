@@ -7,7 +7,7 @@
 		<label>raw bamboo</label>
 		<description>Raw bamboo. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Bamboo is a perishable, fast growing grass.</description>
 		<graphicData>
-			<texPath>Resources/Bamboo/bamboo</texPath>
+			<texPath>Things/Resources/Bamboo/bamboo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -34,7 +34,7 @@
   
 	<ThingDef ParentName="WoodLogBase">
 		<defName>VG_IronWoodLog</defName>
-		<label>Ironwood logs</label>
+		<label>ironwood logs</label>
 		<description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable hardwood.</description>
 		<graphicData>
 			<texPath>Things/Item/IronWoodLog</texPath>
@@ -42,13 +42,13 @@
 		</graphicData>
 		<statBases>
 			<Mass>0.8</Mass>
-			<MarketValue>1.7</MarketValue>
+			<MarketValue>1.9</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
-			<commonality>0.75</commonality>
+			<commonality>0.6</commonality>
 			<color>(100,100,100)</color>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
@@ -57,7 +57,7 @@
 				<WorkToMake>1.25</WorkToMake>
 				<WorkToBuild>1.25</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
-				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -68,27 +68,27 @@
 <!-- Fruit Trees -->  
   
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Apple</defName>
+		<defName>WoodLog_Apple</defName> <!-- SG: 0.83  W: 830  H: 1730 -->
 		<label>applewood logs</label>
 		<description>Raw wood from an apple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Applewood is a nondurable hardwood.</description>
 		<graphicData>
 			<color>(171,133,94)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.7</Mass>
-			<MarketValue>1.1</MarketValue>
-			<DeteriorationRate>6</DeteriorationRate>
+			<Mass>0.8</Mass>
+			<MarketValue>1.6</MarketValue>
+			<DeteriorationRate>5</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>applewood</stuffAdjective>
-			<commonality>0.75</commonality>
+			<commonality>0.5</commonality>
 			<color>(171,133,94)</color>
 			<statFactors>
-				<MaxHitPoints>0.4</MaxHitPoints>
-				<Beauty>1.15</Beauty>
-				<WorkToMake>0.7</WorkToMake>
-				<WorkToBuild>0.7</WorkToBuild>
-				<DoorOpenSpeed>1.6</DoorOpenSpeed>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -97,20 +97,20 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Cherry</defName>
+		<defName>WoodLog_Cherry</defName> <!-- SG: 0.60  W: 600  H: 1150 -->
 		<label>cherrywood logs</label>
 		<description>Raw wood from a cherry tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Cherrywood is a moderate to nondurable hardwood.</description>
 		<graphicData>
 			<color>(229,182,130)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.5</Mass>
-			<MarketValue>1.5</MarketValue>
-			<DeteriorationRate>4</DeteriorationRate>
+			<Mass>0.6</Mass>
+			<MarketValue>1.6</MarketValue>
+			<DeteriorationRate>3</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>cherrywood</stuffAdjective>
-			<commonality>0.55</commonality>
+			<commonality>0.5</commonality>
 			<color>(229,182,130)</color>
 			<statFactors>
 				<MaxHitPoints>0.5</MaxHitPoints>
@@ -126,20 +126,20 @@
 	</ThingDef>	
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_DatePalm</defName>
+		<defName>WoodLog_DatePalm</defName> <!-- SG:   W:   H:  -->
 		<label>date palm logs</label>
 		<description>Raw wood from a date palm tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Date palm is a durable wood.</description>
 		<graphicData>
 			<color>(218,174,69)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.65</Mass>
-			<MarketValue>1.9</MarketValue>
+			<Mass>0.7</Mass>
+			<MarketValue>1.8</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>date palm</stuffAdjective>
-			<commonality>0.35</commonality>
+			<commonality>0.4</commonality>
 			<color>(218,174,69)</color>
 			<constructEffect>ConstructWood</constructEffect>
 			<statFactors>
@@ -147,7 +147,7 @@
 				<Beauty>0.6</Beauty>
 				<WorkToMake>0.75</WorkToMake>
 				<WorkToBuild>0.75</WorkToBuild>
-				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<DoorOpenSpeed>1.1</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -156,14 +156,14 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Fig</defName>
+		<defName>WoodLog_Fig</defName> <!-- SG: ~0.4-0.5  W: ~450  H: soft -->
 		<label>figwood logs</label>
 		<description>Raw wood from a fig tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Figwood is a low to nondurable hardwood.</description>
 		<graphicData>
 			<color>(254,254,202)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.45</Mass>
+			<Mass>0.4</Mass>
 			<MarketValue>1.3</MarketValue>
 			<DeteriorationRate>5</DeteriorationRate>
 		</statBases>
@@ -176,7 +176,7 @@
 				<Beauty>0.7</Beauty>
 				<WorkToMake>0.55</WorkToMake>
 				<WorkToBuild>0.55</WorkToBuild>
-				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -214,27 +214,27 @@
 	</ThingDef>	-->
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Orange</defName>
+		<defName>WoodLog_Orange</defName> <!-- SG:   W:   H:  -->
 		<label>orangewood logs</label>
 		<description>Raw wood from an orange tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Orangewood is a perishable hardwood.</description>
 		<graphicData>
 			<color>(255,243,171)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.35</Mass>
-			<MarketValue>0.6</MarketValue>
-			<DeteriorationRate>8</DeteriorationRate>
+			<Mass>0.4</Mass>
+			<MarketValue>0.9</MarketValue>
+			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>orangewood</stuffAdjective>
-			<commonality>1.00</commonality>
+			<commonality>0.9</commonality>
 			<color>(255,243,171)</color>
 			<statFactors>
 				<MaxHitPoints>0.3</MaxHitPoints>
-				<Beauty>0.7</Beauty>
+				<Beauty>0.8</Beauty>
 				<WorkToMake>0.4</WorkToMake>
 				<WorkToBuild>0.4</WorkToBuild>
-				<DoorOpenSpeed>0.9</DoorOpenSpeed>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -243,27 +243,27 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Peach</defName>
+		<defName>WoodLog_Peach</defName> <!-- SG:   W:   H:  -->
 		<label>peachwood logs</label>
 		<description>Raw wood from a peach tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Peachwood is a low to nondurable hardwood.</description>
 		<graphicData>
 			<color>(213,149,59)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.45</Mass>
+			<Mass>0.6</Mass>
 			<MarketValue>1.2</MarketValue>
 			<DeteriorationRate>5</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>peachwood</stuffAdjective>
-			<commonality>0.7</commonality>
+			<commonality>0.55</commonality>
 			<color>(213,149,59)</color>
 			<statFactors>
 				<MaxHitPoints>0.45</MaxHitPoints>
-				<Beauty>0.65</Beauty>
+				<Beauty>1.0</Beauty>
 				<WorkToMake>0.55</WorkToMake>
 				<WorkToBuild>0.55</WorkToBuild>
-				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
@@ -272,27 +272,27 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoodLogBase">
-		<defName>WoodLog_Coconut</defName>
+		<defName>WoodLog_Coconut</defName> <!-- SG: 0.82  W: 820  H: 1900 -->
 		<label>red palm logs</label>
 		<description>Raw wood from a red palm tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Red palm is a durable wood.</description>
 		<graphicData>
 			<color>(165,139,106)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.65</Mass>
-			<MarketValue>1.8</MarketValue>
+			<Mass>0.8</Mass>
+			<MarketValue>2.1</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>red palm</stuffAdjective>
-			<commonality>0.4</commonality>
+			<commonality>0.35</commonality>
 			<color>(165,139,106)</color>
 			<statFactors>
-				<MaxHitPoints>0.65</MaxHitPoints>
-				<Beauty>0.55</Beauty>
-				<WorkToMake>0.75</WorkToMake>
-				<WorkToBuild>0.75</WorkToBuild>
-				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>

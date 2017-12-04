@@ -1,20 +1,25 @@
 # Change Log
 
-**Current:** [v0.18.0.0b](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.0b)
+**Current:** [v0.18.0.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.1 )
 
-## [0.18.0.0b] Pre-release - 2017-12-01
-### New (save needed for B18)
+## [0.18.0.1] - 2017-12-04
+### New (save needed for B18 if switching from A17)
 - Assembly updated.
 - With changes of Vegetable Garden to Vegetable Garden Project, changes are being made to how this mod is structured.
 - VGP Vegetable Garden mod is required.
 - VGP Xtra Trees and Flowers support is entirely through a patch, so it is not needed if you don't want to use it.
 - Support for Wood fired generator and VGP's bamboo campfire.
-- Just like in Expanded Woodworking, support for those same categories mentioned in its changelog has moved in a patch.
+- Moved Lighting, Power, Production, Temperature into patching system for better compatibility with other mods as well as
+  Rimworld updates editing such as well.
 - Individual lumber recipies! (looking for feedback on)
+- Compost starter uses logs.
+- Languages folder added. (Who wants to translate?)
+
+###Fixed
+- Balancing for stats (door open speed, beauty, mass, market value, etc.). Looking for feedback regarding these!
+- Something I likely forgot, so updates across the defs.
 
 ### Removed
-- Compatibility with other mods (M13's and Zen Garden; compatibility in future update).
-- Support for whatever is not in the above two mentioned mods. (working on compatibility currently)
 - Olive tree producing wood (as a result of this change in VGP).
 - Original generator.
 
@@ -30,7 +35,8 @@
 
 ## [0.17.0.2] - 2017-07-20
 ### New
-- Brought the wild fruit trees Vegetable Garden intorduces into the code. This means there will no longer be two of the same fruit tree where only one of them would drop wood. It is now one fruit tree that drops wood and fruit.
+- Brought the wild fruit trees Vegetable Garden intorduces into the code. This means there will no longer be two of the same 
+  fruit tree where only one of them would drop wood. It is now one fruit tree that drops wood and fruit.
 - Brought the rarity of trees in-line with how Vegetable Garden has it. (Let me know if you think this is too few.)
 - Some code changes to reflect changes made in Vegetable Garden.
 

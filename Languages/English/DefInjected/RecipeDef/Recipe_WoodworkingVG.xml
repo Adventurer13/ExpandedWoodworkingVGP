@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MakeWoodLumberIronwood.label>make ironwood lumber</MakeWoodLumberIronwood.label>
+	<MakeWoodLumberIronwood.description>Process raw ironwood logs into lumber for construction.</MakeWoodLumberIronwood.description>
+	<MakeWoodLumberIronwood.jobString>Processing lumber from wood.</MakeWoodLumberIronwood.jobString>
+	
+	<MakeWoodLumberApple.label>make applewood lumber</MakeWoodLumberApple.label>
+	<MakeWoodLumberApple.description>Process raw applewood logs into lumber for construction.</MakeWoodLumberApple.description>
+	<MakeWoodLumberApple.jobString>Processing lumber from wood.</MakeWoodLumberApple.jobString>
+	
+	<MakeWoodLumberCherry.label>make cherrywood lumber</MakeWoodLumberCherry.label>
+	<MakeWoodLumberCherry.description>Process raw cherrywood logs into lumber for construction.</MakeWoodLumberCherry.description>
+	<MakeWoodLumberCherry.jobString>Processing lumber from wood.</MakeWoodLumberCherry.jobString>
+	
+	<MakeWoodLumberDatePalm.label>make date palm lumber</MakeWoodLumberDatePalm.label>
+	<MakeWoodLumberDatePalm.description>Process raw date palm logs into lumber for construction.</MakeWoodLumberDatePalm.description>
+	<MakeWoodLumberDatePalm.jobString>Processing lumber from wood.</MakeWoodLumberDatePalm.jobString>
+	
+	<MakeWoodLumberFig.label>make figwood lumber</MakeWoodLumberFig.label>
+	<MakeWoodLumberFig.description>Process raw figwood logs into lumber for construction.</MakeWoodLumberFig.description>
+	<MakeWoodLumberFig.jobString>Processing lumber from wood.</MakeWoodLumberFig.jobString>
+	
+	<MakeWoodLumberOrange.label>make orangewood lumber</MakeWoodLumberOrange.label>
+	<MakeWoodLumberOrange.description>Process raw orangewood logs into lumber for construction.</MakeWoodLumberOrange.description>
+	<MakeWoodLumberOrange.jobString>Processing lumber from wood.</MakeWoodLumberOrange.jobString>
+	
+	<MakeWoodLumberPeach.label>make peachwood lumber</MakeWoodLumberPeach.label>
+	<MakeWoodLumberPeach.description>Process raw peachwood logs into lumber for construction.</MakeWoodLumberPeach.description>
+	<MakeWoodLumberPeach.jobString>Processing lumber from wood.</MakeWoodLumberPeach.jobString>
+	
+	<MakeWoodLumberCoconut.label>make red palm lumber</MakeWoodLumberCoconut.label>
+	<MakeWoodLumberCoconut.description>Process raw red palm logs into lumber for construction.</MakeWoodLumberCoconut.description>
+	<MakeWoodLumberCoconut.jobString>Processing lumber from wood.</MakeWoodLumberCoconut.jobString>
+
+<!-- Uncomment section below if using 'VGP Xtra Trees and Flowers' (<-This comment to the left should be translated too!) -->	
+<!--	
+	<MakeWoodLumberAcacia.label>make acacia lumber</MakeWoodLumberAcacia.label>
+	<MakeWoodLumberAcacia.description>Process raw acacia logs into lumber for construction.</MakeWoodLumberAcacia.description>
+	<MakeWoodLumberAcacia.jobString>Processing lumber from wood.</MakeWoodLumberAcacia.jobString>
+	
+	<MakeWoodLumberCamellia.label>make camellia lumber</MakeWoodLumberCamellia.label>
+	<MakeWoodLumberCamellia.description>Process raw camellia logs into lumber for construction.</MakeWoodLumberCamellia.description>
+	<MakeWoodLumberCamellia.jobString>Processing lumber from wood.</MakeWoodLumberCamellia.jobString>
+	
+	<MakeWoodLumberCherryBlossom.label>make cherry blossom lumber</MakeWoodLumberCherryBlossom.label>
+	<MakeWoodLumberCherryBlossom.description>Process raw cherry blossom logs into lumber for construction.</MakeWoodLumberCherryBlossom.description>
+	<MakeWoodLumberCherryBlossom.jobString>Processing lumber from wood.</MakeWoodLumberCherryBlossom.jobString>
+	
+	<MakeWoodLumberJapaneseMaple.label>make japanese maple lumber</MakeWoodLumberJapaneseMaple.label>
+	<MakeWoodLumberJapaneseMaple.description>Process raw japanese maple logs into lumber for construction.</MakeWoodLumberJapaneseMaple.description>
+	<MakeWoodLumberJapaneseMaple.jobString>Processing lumber from wood.</MakeWoodLumberJapaneseMaple.jobString>
+	
+	<MakeWoodLumberRedMaple.label>make red maple lumber</MakeWoodLumberRedMaple.label>
+	<MakeWoodLumberRedMaple.description>Process raw red maple logs into lumber for construction.</MakeWoodLumberRedMaple.description>
+	<MakeWoodLumberRedMaple.jobString>Processing lumber from wood.</MakeWoodLumberRedMaple.jobString>
+-->	
+	
+</LanguageData>

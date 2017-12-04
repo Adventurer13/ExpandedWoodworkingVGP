@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	
+	<VG_IronWoodLog.label>ironwood logs</VG_IronWoodLog.label>
+	<VG_IronWoodLog.description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable hardwood.</VG_IronWoodLog.description>
+	<VG_IronWoodLog.stuffProps.stuffAdjective>ironwood</VG_IronWoodLog.stuffProps.stuffAdjective>
+	
+	<WoodLog_Apple.label>applewood logs</WoodLog_Apple.label>
+	<WoodLog_Apple.description>Raw wood from an apple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Applewood is a nondurable hardwood.</WoodLog_Apple.description>
+	<WoodLog_Apple.stuffProps.stuffAdjective>applewood</WoodLog_Apple.stuffProps.stuffAdjective>
+	
+	<WoodLog_Cherry.label>cherrywood logs</WoodLog_Cherry.label>
+	<WoodLog_Cherry.description>Raw wood from a cherry tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Cherrywood is a moderate to nondurable hardwood.</WoodLog_Cherry.description>
+	<WoodLog_Cherry.stuffProps.stuffAdjective>cherrywood</WoodLog_Cherry.stuffProps.stuffAdjective>
+	
+	<WoodLog_DatePalm.label>date palm logs</WoodLog_DatePalm.label>
+	<WoodLog_DatePalm.description>Raw wood from a date palm tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Date palm is a durable wood.</WoodLog_DatePalm.description>
+	<WoodLog_DatePalm.stuffProps.stuffAdjective>date palm</WoodLog_DatePalm.stuffProps.stuffAdjective>
+	
+	<WoodLog_Fig.label>figwood logs</WoodLog_Fig.label>
+	<WoodLog_Fig.description>Raw wood from a fig tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Figwood is a low to nondurable hardwood.</WoodLog_Fig.description>
+	<WoodLog_Fig.stuffProps.stuffAdjective>figwood</WoodLog_Fig.stuffProps.stuffAdjective>
+	
+	<WoodLog_Orange.label>orangewood logs</WoodLog_Orange.label>
+	<WoodLog_Orange.description>Raw wood from an orange tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Orangewood is a perishable hardwood.</WoodLog_Orange.description>
+	<WoodLog_Orange.stuffProps.stuffAdjective>orangewood</WoodLog_Orange.stuffProps.stuffAdjective>
+
+	<WoodLog_Peach.label>peachwood logs</WoodLog_Peach.label>
+	<WoodLog_Peach.description>Raw wood from a peach tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Peachwood is a low to nondurable hardwood.</WoodLog_Peach.description>
+	<WoodLog_Peach.stuffProps.stuffAdjective>peachwood</WoodLog_Peach.stuffProps.stuffAdjective>
+	
+	<WoodLog_Coconut.label>red palm logs</WoodLog_Coconut.label>
+	<WoodLog_Coconut.description>Raw wood from a red palm tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Red palm is a durable wood.</WoodLog_Coconut.description>
+	<WoodLog_Coconut.stuffProps.stuffAdjective>red palm</WoodLog_Coconut.stuffProps.stuffAdjective>
+
+<!-- Uncomment section below if using 'VGP Xtra Trees and Flowers' (<-This comment to the left should be translated too!) -->	
+<!--	
+	<WoodLog_Acacia.label>acacia logs</WoodLog_Acacia.label>
+	<WoodLog_Acacia.description>Raw wood from an acacia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Acacia is a very durable hardwood.</WoodLog_Acacia.description>
+	<WoodLog_Acacia.stuffProps.stuffAdjective>acacia</WoodLog_Acacia.stuffProps.stuffAdjective>
+	
+	<WoodLog_Camellia.label>camellia logs</WoodLog_Camellia.label>
+	<WoodLog_Camellia.description>Raw wood from a camellia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Camellia is a perishable hardwood.</WoodLog_Camellia.description>
+	<WoodLog_Camellia.stuffProps.stuffAdjective>camellia</WoodLog_Camellia.stuffProps.stuffAdjective>
+		
+	<WoodLog_CherryBlossom.label>cherry blossom logs</WoodLog_CherryBlossom.label>
+	<WoodLog_CherryBlossom.description>Raw wood from a cherry blossom tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Cherry blossom is a moderate to nondurable hardwood.</WoodLog_CherryBlossom.description>
+	<WoodLog_CherryBlossom.stuffProps.stuffAdjective>cherry blossom</WoodLog_CherryBlossom.stuffProps.stuffAdjective>
+	
+	<WoodLog_JapaneseMaple.label>japanese maple logs</WoodLog_JapaneseMaple.label>
+	<WoodLog_JapaneseMaple.description>Raw wood from a japanese maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Japanese maple is a nondurable to perishable hardwood.</WoodLog_JapaneseMaple.description>
+	<WoodLog_JapaneseMaple.stuffProps.stuffAdjective>japanese maple</WoodLog_JapaneseMaple.stuffProps.stuffAdjective>
+	
+	<WoodLog_RedMaple.label>red maple logs</WoodLog_RedMaple.label>
+	<WoodLog_RedMaple.description>Raw bamboo. When processed it becomes useful for building structures, weapons, and even simple prosthetics. WoodLog_RedMaple is a perishable, fast growing grass.</WoodLog_RedMaple.description>
+	<WoodLog_RedMaple.stuffProps.stuffAdjective>red maple</WoodLog_RedMaple.stuffProps.stuffAdjective>
+-->
+	
+</LanguageData>

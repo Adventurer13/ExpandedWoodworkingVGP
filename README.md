@@ -21,17 +21,24 @@ Drop the latest release into your `RimWorld/Mods` folder.
 
 
 ## Compatibility
-Expanded Woodworking for Vegetable Garden overwrites the following Vegetable Garden definitions:
+Expanded Woodworking for Vegetable Garden Project overwrites the following Vegetable Garden Project definitions:
 
+- Trees (except for Xtra Tree)
+- Bamboo and Ironwood resources
+
+Patches edit the following Vegetable Garden Project definitions:
+
+- Trees from Xtra Trees and Flowers
 - Oven
-- Fueled food prep table
-- Fueled sweets table
-
+- All fueled tables
+- Brewery & barrels
+- Bamboo campfire
+- Compost starter
 
 ## Found a Bug?
 Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Adventurer13/ExpandedWoodworkingVGP/issues). Please provide your exported HugsLib log.
 
 
 ## Older Versions
-All current and past A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
+All current and past B18/A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
 All past A16 versions can be downloaded from [GitHub](https://github.com/Qwynn/ExpandedWoodworkingVG/releases).

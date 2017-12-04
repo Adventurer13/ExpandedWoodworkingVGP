@@ -170,7 +170,7 @@
 	
 	<RecipeDef ParentName="MakeWoodLumberBase">
 		<defName>MakeWoodLumberPeach</defName>
-		<label>make peach lumber</label>
+		<label>make peachwood lumber</label>
 		<description>Process raw peachwood logs into lumber for construction.</description>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<ingredients>

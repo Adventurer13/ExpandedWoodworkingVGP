@@ -37,7 +37,7 @@
 		</graphicData>
 		<statBases>
 			<Mass>0.4</Mass>
-			<MarketValue>1.7</MarketValue>
+			<MarketValue>2.6</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
 		</statBases>
@@ -67,20 +67,20 @@
 			<color>(171,133,94)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.7</Mass>
+			<Mass>0.4</Mass>
 			<MarketValue>2.4</MarketValue>
 			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>applewood</stuffAdjective>
-			<commonality>0.75</commonality>
+			<commonality>0.5</commonality>
 			<color>(171,133,94)</color>
 			<statFactors>
-				<MaxHitPoints>0.4</MaxHitPoints>
-				<Beauty>1.15</Beauty>
-				<WorkToMake>0.7</WorkToMake>
-				<WorkToBuild>0.7</WorkToBuild>
-				<DoorOpenSpeed>1.6</DoorOpenSpeed>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -93,13 +93,13 @@
 			<color>(229,182,130)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.5</Mass>
+			<Mass>0.3</Mass>
 			<MarketValue>3.2</MarketValue>
 			<DeteriorationRate>4</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>cherrywood</stuffAdjective>
-			<commonality>0.55</commonality>
+			<commonality>0.5</commonality>
 			<color>(229,182,130)</color>
 			<statFactors>
 				<MaxHitPoints>0.5</MaxHitPoints>
@@ -119,9 +119,9 @@
 			<color>(218,174,69)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.65</Mass>
-			<MarketValue>4</MarketValue>
-			<DeteriorationRate>1</DeteriorationRate>
+			<Mass>0.35</Mass>
+			<MarketValue>3.8</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>date palm</stuffAdjective>
@@ -132,7 +132,7 @@
 				<Beauty>0.6</Beauty>
 				<WorkToMake>0.75</WorkToMake>
 				<WorkToBuild>0.75</WorkToBuild>
-				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<DoorOpenSpeed>1.1</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>	
@@ -145,9 +145,9 @@
 			<color>(254,254,202)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.45</Mass>
+			<Mass>0.2</Mass>
 			<MarketValue>2.8</MarketValue>
-			<DeteriorationRate>5</DeteriorationRate>
+			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>figwood</stuffAdjective>
@@ -158,7 +158,7 @@
 				<Beauty>0.7</Beauty>
 				<WorkToMake>0.55</WorkToMake>
 				<WorkToBuild>0.55</WorkToBuild>
-				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -197,20 +197,20 @@
 			<color>(255,243,171)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.35</Mass>
-			<MarketValue>1.4</MarketValue>
+			<Mass>0.2</Mass>
+			<MarketValue>1.6</MarketValue>
 			<DeteriorationRate>8</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>orangewood</stuffAdjective>
-			<commonality>1.0</commonality>
+			<commonality>0.9</commonality>
 			<color>(255,243,171)</color>
 			<statFactors>
 				<MaxHitPoints>0.3</MaxHitPoints>
-				<Beauty>0.7</Beauty>
+				<Beauty>0.8</Beauty>
 				<WorkToMake>0.4</WorkToMake>
 				<WorkToBuild>0.4</WorkToBuild>
-				<DoorOpenSpeed>0.9</DoorOpenSpeed>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -223,20 +223,20 @@
 			<color>(213,149,59)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.45</Mass>
-			<MarketValue>2.6</MarketValue>
-			<DeteriorationRate>5</DeteriorationRate>
+			<Mass>0.3</Mass>
+			<MarketValue>2.9</MarketValue>
+			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>peachwood</stuffAdjective>
-			<commonality>0.7</commonality>
+			<commonality>0.5</commonality>
 			<color>(213,149,59)</color>
 			<statFactors>
 				<MaxHitPoints>0.45</MaxHitPoints>
-				<Beauty>0.65</Beauty>
+				<Beauty>1.0</Beauty>
 				<WorkToMake>0.55</WorkToMake>
 				<WorkToBuild>0.55</WorkToBuild>
-				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -249,20 +249,20 @@
 			<color>(165,139,106)</color>
 		</graphicData>
 		<statBases>
-			<Mass>0.65</Mass>
-			<MarketValue>3.8</MarketValue>
+			<Mass>0.4</Mass>
+			<MarketValue>4.0</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>red palm</stuffAdjective>
-			<commonality>0.4</commonality>
+			<commonality>0.3</commonality>
 			<color>(165,139,106)</color>
 			<statFactors>
-				<MaxHitPoints>0.65</MaxHitPoints>
-				<Beauty>0.55</Beauty>
-				<WorkToMake>0.75</WorkToMake>
-				<WorkToBuild>0.75</WorkToBuild>
-				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
