@@ -2,6 +2,8 @@
 
 **Current:** [v0.18.0.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.1 )
 
+## Unreleased
+
 ## [0.18.0.1] - 2017-12-04
 ### New (save needed for B18 if switching from A17)
 - Assembly updated.
