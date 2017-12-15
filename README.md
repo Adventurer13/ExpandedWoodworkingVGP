@@ -18,6 +18,7 @@ Drop the latest release into your `RimWorld/Mods` folder.
 - Raw logs are used as fuel!
 - Realistic wood colours!
 - Seamless functionality with trees, fruit trees, and bamboo introduced by Vegetable Garden!
+- ModSync Ninja support!
 
 
 ## Compatibility
