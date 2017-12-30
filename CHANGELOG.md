@@ -2,6 +2,10 @@
 
 **Current:** [v0.18.0.2](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.2 )
 
+## Unreleased
+###Fixed
+- The way fuelFilter is patched for greater compatibility.
+
 ## [0.18.0.2] - 2017-12-15
 ### New
 - ModSync Ninja support.
