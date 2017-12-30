@@ -3,7 +3,7 @@
 **Current:** [v0.18.0.2](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.2 )
 
 ## Unreleased
-###Fixed
+### Fixed
 - The way fuelFilter is patched for greater compatibility.
 
 ## [0.18.0.2] - 2017-12-15
@@ -23,7 +23,7 @@
 - Compost starter uses logs.
 - Languages folder added. (Who wants to translate?)
 
-###Fixed
+### Fixed
 - Balancing for stats (door open speed, beauty, mass, market value, etc.). Looking for feedback regarding these!
 - Something I likely forgot, so updates across the defs.
 
