@@ -4,7 +4,10 @@
 
 ## Unreleased
 ### Fixed
-- The way fuelFilter is patched for greater compatibility.
+- Fuel filter patching edited to coincide with the change in Expanded Woodworking.
+
+### Removed
+- Patch files for specifically VGP Vegetable Garden and VGP Garden Gourmet as they only edited the fuelFilter.
 
 ## [0.18.0.2] - 2017-12-15
 ### New
