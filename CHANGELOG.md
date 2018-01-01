@@ -1,8 +1,10 @@
 # Change Log
 
-**Current:** [v0.18.0.2](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.2 )
+**Current:** [v0.18.0.3](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.3 )
 
 ## Unreleased
+
+## [0.18.0.3] - 2017-12-31
 ### Fixed
 - Fuel filter patching edited to coincide with the change in Expanded Woodworking.
 

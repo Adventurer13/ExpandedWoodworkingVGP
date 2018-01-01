@@ -386,7 +386,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- Extra Trees Lumber Recipies -->
+	<!-- Extra Trees Lumber Recipes -->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -546,7 +546,8 @@
 		</operations>
 	</Operation>
 	
-	<!-- Lighting -->
+	<!-- (older manual way of patching fuelFilter)
+	 Lighting 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -566,7 +567,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- Power -->
+	 Power 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -586,7 +587,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- Production -->
+	 Production 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -607,7 +608,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- Temperature -->
+	 Temperature 
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -645,6 +646,6 @@
 			</li>
 		</operations>
 	</Operation>
-	
+	-->
 	
 </Patch>
