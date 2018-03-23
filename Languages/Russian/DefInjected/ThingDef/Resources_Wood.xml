@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!--
+<VG_IronWoodLog.label>Железная древесина</VG_IronWoodLog.label>
+<VG_IronWoodLog.description>Стволы железных деревьев. Полезна для строительства конструкций, оружия и даже простого протезирования. Сырая палка дерева может использоваться в крайнем случае как оружие. Очень прочная древесина лиственных пород. Очень красивый декоративный материал.</VG_IronWoodLog.description>
+<VG_IronWoodLog.stuffProps.stuffAdjective>железное дерево</VG_IronWoodLog.stuffProps.stuffAdjective>
+-->
+
+<WoodLog_Apple.label>брёвна яблони</WoodLog_Apple.label>
+<WoodLog_Apple.description>Брёвна из яблони. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Очень недолговечная древесина лиственных пород.</WoodLog_Apple.description>
+<WoodLog_Apple.stuffProps.stuffAdjective>яблоня</WoodLog_Apple.stuffProps.stuffAdjective>
+
+<WoodLog_Cherry.label>брёвна вишни</WoodLog_Cherry.label>
+<WoodLog_Cherry.description>Брёвна из вишни. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Средне недолговечная древесина лиственных пород.</WoodLog_Cherry.description>
+<WoodLog_Cherry.stuffProps.stuffAdjective>вишня</WoodLog_Cherry.stuffProps.stuffAdjective>
+
+<WoodLog_DatePalm.label>брёвна финиковой пальмы</WoodLog_DatePalm.label>
+<WoodLog_DatePalm.description>Брёвна из пальмы. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Прочная древесина.</WoodLog_DatePalm.description>
+<WoodLog_DatePalm.stuffProps.stuffAdjective>финиковая пальма</WoodLog_DatePalm.stuffProps.stuffAdjective>
+
+<WoodLog_Fig.label>брёвна фигового дерева</WoodLog_Fig.label>
+<WoodLog_Fig.description>Брёвна из фигового дерева. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Недолговечная и твёрдая древесина.</WoodLog_Fig.description>
+<WoodLog_Fig.stuffProps.stuffAdjective>фиговое дерево</WoodLog_Fig.stuffProps.stuffAdjective>
+
+<WoodLog_Orange.label>брёвна апельсинового дерева</WoodLog_Orange.label>
+<WoodLog_Orange.description>Брёвна из апельсинового дерева. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Скоропортящаяся лиственная древесина.</WoodLog_Orange.description>
+<WoodLog_Orange.stuffProps.stuffAdjective>апельсиновое дерево</WoodLog_Orange.stuffProps.stuffAdjective>
+
+<WoodLog_Peach.label>брёвна персикового дерева</WoodLog_Peach.label>
+<WoodLog_Peach.description>Брёвна из персикового дерева. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Недолговечная и твёрдая древесина.</WoodLog_Peach.description>
+<WoodLog_Peach.stuffProps.stuffAdjective>персиковое дерево</WoodLog_Peach.stuffProps.stuffAdjective>
+
+<WoodLog_Coconut.label>брёвна красной сургучной пальмы</WoodLog_Coconut.label>
+<WoodLog_Coconut.description>Брёвна из сургучной пальмы. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Прочная древесина.</WoodLog_Coconut.description>
+<WoodLog_Coconut.stuffProps.stuffAdjective>сургучная пальма</WoodLog_Coconut.stuffProps.stuffAdjective>
+
+<WoodLog_Acacia.label>брёвна акации</WoodLog_Acacia.label>
+<WoodLog_Acacia.description>Брёвна из акации. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Акация - очень прочная лиственная древесина.</WoodLog_Acacia.description>
+<WoodLog_Acacia.stuffProps.stuffAdjective>акация</WoodLog_Acacia.stuffProps.stuffAdjective>
+
+<WoodLog_Camellia.label>брёвна камелии</WoodLog_Camellia.label>
+<WoodLog_Camellia.description>Брёвна из камелии. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Камелия - непрочная лиственная древесина.</WoodLog_Camellia.description>
+<WoodLog_Camellia.stuffProps.stuffAdjective>камелия</WoodLog_Camellia.stuffProps.stuffAdjective>
+
+<WoodLog_CherryBlossom.label>брёвна цветущей вишни</WoodLog_CherryBlossom.label>
+<WoodLog_CherryBlossom.description>Брёвна из цветущей вишни. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Цветущая вишня - это посредственная непрочная лиственная древесина.</WoodLog_CherryBlossom.description>
+<WoodLog_CherryBlossom.stuffProps.stuffAdjective>цветущая вишня</WoodLog_CherryBlossom.stuffProps.stuffAdjective>
+
+<WoodLog_JapaneseMaple.label>брёвна японского клёна</WoodLog_JapaneseMaple.label>
+<WoodLog_JapaneseMaple.description>Брёвна из японского клёна. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Японский клён - это недолговечная непрочная древесина.</WoodLog_JapaneseMaple.description>
+<WoodLog_JapaneseMaple.stuffProps.stuffAdjective>японский клён</WoodLog_JapaneseMaple.stuffProps.stuffAdjective>
+
+<WoodLog_RedMaple.label>брёвна красного клёна</WoodLog_RedMaple.label>
+<WoodLog_RedMaple.description>Красный клён. После обработки они становится полезными для строительных конструкций, оружия и даже простого протезирования. Красный клён - это недолговечная непрочная древесина.</WoodLog_RedMaple.description>
+<WoodLog_RedMaple.stuffProps.stuffAdjective>красный клён</WoodLog_RedMaple.stuffProps.stuffAdjective>
+
+</LanguageData>
