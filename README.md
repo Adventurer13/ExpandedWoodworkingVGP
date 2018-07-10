@@ -20,12 +20,12 @@ Drop the latest release into your `RimWorld/Mods` folder.
 
 ## Compatibility
 Expanded Woodworking for Vegetable Garden Project overwrites the following Vegetable Garden Project definitions:
-
-- Trees (except for those from Xtra Trees)
+ 
 - Bamboo and Ironwood resources
 
 Patches edit the following Vegetable Garden Project definitions:
 
+- Fruit trees from Vegetable Garden
 - Trees from Xtra Trees and Flowers
 - Brewery
 - Compost starter

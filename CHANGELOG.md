@@ -1,8 +1,18 @@
 # Change Log
 
-**Current:** [v0.18.0.3](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.3 )
+**Current:** [v0.18.0.4](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.18.0.4 )
 
 ## Unreleased
+
+## [0.18.0.4] - Soon
+## New
+- Readded support for the other cultivated fruit trees since they were readded by Vegetable Garden.
+
+### Fixed
+- Tree defintions overwriting the tree changes made by plant density mods and the VGP fruit tree defintions.
+
+### Removed
+- ThingDefs_Plants files and folder as it is no longer needed.
 
 ## [0.18.0.3] - 2017-12-31
 ### Fixed
