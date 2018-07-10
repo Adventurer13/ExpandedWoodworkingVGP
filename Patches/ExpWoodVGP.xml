@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Cultivated Wood-Producing Fruit Trees -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantAppletree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Apple</thingClass>
+				</value>
+			</li>
+			<!-- <li Class="PatchOperationAdd"> *Changed into no longer producing wood within VG*
+				<xpath>/Defs/ThingDef[defName = "PlantOlivetree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Olive</thingClass>
+				</value>
+			</li> -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantorangeTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Orange</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantPeachTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Peach</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "DateTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.DatePalm</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "FigTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Fig</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Coconuttree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Coconut</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantCherrytree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Cherry</thingClass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Wild Fruit Trees -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildAppletree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Apple</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildorangeTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Orange</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildPeachTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Peach</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildDateTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.DatePalm</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildFigTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Fig</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildCoconuttree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Coconut</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "WildPlantCherrytree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Cherry</thingClass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
