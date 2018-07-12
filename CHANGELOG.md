@@ -4,9 +4,11 @@
 
 ## Unreleased
 
-## [0.18.0.4] - Soon
+## [0.18.0.4] - 2018-07-11
 ## New
 - Readded support for the other cultivated fruit trees since they were readded by Vegetable Garden.
+- Russian language localisation by lex1975.
+- ModSync RW support.
 
 ### Fixed
 - Tree defintions overwriting the tree changes made by plant density mods and the VGP fruit tree defintions.
