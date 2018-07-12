@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<MakeWoodLumberIronwood.label>Сделать доски из железного дерева.</MakeWoodLumberIronwood.label>
+<MakeWoodLumberIronwood.description>Разделка брёвен железного дерева на доски для строительства.</MakeWoodLumberIronwood.description>
+<MakeWoodLumberIronwood.jobString>Распил брёвен на доски.</MakeWoodLumberIronwood.jobString>
+
+<MakeWoodLumberApple.label>Сделать доски из яблони.</MakeWoodLumberApple.label>
+<MakeWoodLumberApple.description>Разделка брёвен яблони на доски для строительства.</MakeWoodLumberApple.description>
+<MakeWoodLumberApple.jobString>Распил брёвен на доски.</MakeWoodLumberApple.jobString>
+
+<MakeWoodLumberCherry.label>Сделать доски из вишни.</MakeWoodLumberCherry.label>
+<MakeWoodLumberCherry.description>Разделка брёвен вишни на доски для строительства.</MakeWoodLumberCherry.description>
+<MakeWoodLumberCherry.jobString>Распил брёвен на доски.</MakeWoodLumberCherry.jobString>
+
+<MakeWoodLumberDatePalm.label>Сделать доски из финиковой пальмы.</MakeWoodLumberDatePalm.label>
+<MakeWoodLumberDatePalm.description>Разделка брёвен финиковой пальмы на доски для строительства.</MakeWoodLumberDatePalm.description>
+<MakeWoodLumberDatePalm.jobString>Распил брёвен на доски.</MakeWoodLumberDatePalm.jobString>
+
+<MakeWoodLumberFig.label>Сделать доски из фигового дерева.</MakeWoodLumberFig.label>
+<MakeWoodLumberFig.description>Разделка брёвен фигового дерева на доски для строительства.</MakeWoodLumberFig.description>
+<MakeWoodLumberFig.jobString>Распил брёвен на доски.</MakeWoodLumberFig.jobString>
+
+<MakeWoodLumberOrange.label>Сделать доски из апельсинового дерева.</MakeWoodLumberOrange.label>
+	<MakeWoodLumberOrange.description>Разделка брёвен апельсинового дерева на доски для строительства.</MakeWoodLumberOrange.description>
+<MakeWoodLumberOrange.jobString>Распил брёвен на доски.</MakeWoodLumberOrange.jobString>
+
+<MakeWoodLumberPeach.label>Сделать доски из персикового дерева.</MakeWoodLumberPeach.label>
+<MakeWoodLumberPeach.description>Разделка брёвен персикового дерева на доски для строительства.</MakeWoodLumberPeach.description>
+<MakeWoodLumberPeach.jobString>Распил брёвен на доски.</MakeWoodLumberPeach.jobString>
+
+<MakeWoodLumberCoconut.label>Сделать доски из красной сургучной пальмы.</MakeWoodLumberCoconut.label>
+<MakeWoodLumberCoconut.description>Разделка брёвен красной сургучной пальмы на доски для строительства.</MakeWoodLumberCoconut.description>
+<MakeWoodLumberCoconut.jobString>Распил брёвен на доски.</MakeWoodLumberCoconut.jobString>
+
+<MakeWoodLumberAcacia.label>Сделать доски акации </MakeWoodLumberAcacia.label>
+<MakeWoodLumberAcacia.description>Разделка брёвен акации на доски для строительства.</MakeWoodLumberAcacia.description>
+<MakeWoodLumberAcacia.jobString>Распил брёвен на доски.</MakeWoodLumberAcacia.jobString>
+
+<MakeWoodLumberCamellia.label>Сделать доски камелии</MakeWoodLumberCamellia.label>
+	<MakeWoodLumberCamellia.description>Разделка брёвен камелии на доски для строительства.</MakeWoodLumberCamellia.description>
+<MakeWoodLumberCamellia.jobString>Распил брёвен на доски.</MakeWoodLumberCamellia.jobString>
+
+<MakeWoodLumberCherryBlossom.label>Сделать доски цветущей вишни</MakeWoodLumberCherryBlossom.label>
+<MakeWoodLumberCherryBlossom.description>Разделка брёвен цветущей вишни на доски для строительства.</MakeWoodLumberCherryBlossom.description>
+<MakeWoodLumberCherryBlossom.jobString>Распил брёвен на доски.</MakeWoodLumberCherryBlossom.jobString>
+
+<MakeWoodLumberJapaneseMaple.label>Сделать доски японского клёна</MakeWoodLumberJapaneseMaple.label>
+<MakeWoodLumberJapaneseMaple.description>Разделка брёвен японского клёна на доски для строительства.</MakeWoodLumberJapaneseMaple.description>
+<MakeWoodLumberJapaneseMaple.jobString>Распил брёвен на доски.</MakeWoodLumberJapaneseMaple.jobString>
+
+<MakeWoodLumberRedMaple.label>Сделать доски красного клёна</MakeWoodLumberRedMaple.label>
+<MakeWoodLumberRedMaple.description>Разделка брёвен красного клёна на доски для строительства.</MakeWoodLumberRedMaple.description>
+<MakeWoodLumberRedMaple.jobString>Распил брёвен на доски.</MakeWoodLumberRedMaple.jobString>
+
+</LanguageData>
