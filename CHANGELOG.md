@@ -2,7 +2,7 @@
 
 **Current:** [v0.19.1.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.19.1.0 )
 
-## [0.19.1.0] - Unreleased
+## [0.19.1.0] - 2018-09-16
 ## Fixed
 - Errors resulting from update to B19 of Rimworld and VGP.
 - Assembly updated.

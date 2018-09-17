@@ -35,5 +35,5 @@ Patches edit the following Vegetable Garden Project definitions:
 Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Adventurer13/ExpandedWoodworkingVGP/issues). Please provide your exported HugsLib log.
 
 ## Older Versions
-All current and past B18/A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
+All current and past B19/B18/A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
 All past A16 versions can be downloaded from [Qwynn's GitHub](https://github.com/Qwynn/ExpandedWoodworkingVG/releases).
