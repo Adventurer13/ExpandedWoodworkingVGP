@@ -105,4 +105,14 @@
 		</operations>
 	</Operation>
 
+	<!-- Bamboo to Wood Recipe -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/RecipDef[defName = "MakeBambooWood"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
 </Patch>

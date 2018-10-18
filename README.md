@@ -1,22 +1,23 @@
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![RimWorld Beta 19](https://img.shields.io/badge/RimWorld-Beta_19-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld 1.0](https://img.shields.io/badge/RimWorld-1.0-brightgreen.svg)](http://rimworldgame.com/)
 
 # Expanded Woodworking for Vegetable Garden Project
-A B19 upgrade to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
+An upgrade to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
 
 ## Installation
-Drop the latest release into your `RimWorld/Mods` folder.
+Remove the previous and drop the latest release into your `RimWorld/Mods` folder.
 
 ## Features
 - Trees have their own unique wood.
 - Every wood type has a corresponding lumber!
 - Process logs into lumber at the woodworking table!
 - Lumber is used in both construction and in crafting.
+- Supports any starting scenario through using the crafting spot to make lumber.
 - Raw logs are used as fuel!
 - Realistic wood colours!
-- Seamless functionality with trees, fruit trees, and bamboo introduced by Vegetable Garden!
-- ModSync RW support!
+- Seamless functionality with trees and fruit trees introduced by Vegetable Garden Project!
+- ModSync RW and Fluffy's Mod Manager support!
 - Language localisation: English, Russian (lex1975)
 
 ## Compatibility

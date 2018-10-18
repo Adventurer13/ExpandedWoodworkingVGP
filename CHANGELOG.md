@@ -1,14 +1,24 @@
 # Change Log
 
-**Current:** [v0.19.1.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v0.19.1.0 )
+**Current:** [v1.0.1.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.0 )
+
+## [1.0.1.0] - 2018-10-17
+### New
+- Updated version to 1.0 release of Rimworld.
+- Updated readme to contain helpful information on bare starting scenarios.
+- Added separate license file.
+- Fluffy's Mod Manager support.
+
+### Removed
+- Rimworld alpha/beta version in the name.
 
 ## [0.19.1.0] - 2018-09-16
-## Fixed
+### Fixed
 - Errors resulting from update to B19 of Rimworld and VGP.
 - Assembly updated.
 
 ## [0.18.0.4] - 2018-07-11
-## New
+### New
 - Readded support for the other cultivated fruit trees since they were readded by Vegetable Garden.
 - Russian language localisation by lex1975.
 - ModSync RW support.
