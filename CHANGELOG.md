@@ -1,6 +1,14 @@
 # Change Log
 
-**Current:** [v1.0.1.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.0 )
+**Current:** [v1.0.1.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.1)
+
+## [1.0.1.1] = 2019-02-01
+### New
+- Ironwood floor uses lumber.
+
+### Fixed
+- Multi-version changes.
+- Balanced Ironwood in line with VG changes.
 
 ## [1.0.1.0] - 2018-10-17
 ### New

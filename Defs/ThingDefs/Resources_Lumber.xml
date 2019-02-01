@@ -39,7 +39,7 @@
 			<Mass>0.4</Mass>
 			<MarketValue>2.6</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
-			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
@@ -47,12 +47,11 @@
 			<color>(100,100,100)</color>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
-				<Beauty>4</Beauty>
+				<Beauty>1</Beauty>
 				<Flammability>0.75</Flammability>
 				<WorkToMake>1.25</WorkToMake>
 				<WorkToBuild>1.25</WorkToBuild>
-				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
-				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>			
 		</stuffProps>
 	</ThingDef>	

@@ -44,7 +44,7 @@
 			<Mass>0.8</Mass>
 			<MarketValue>1.9</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
-			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
@@ -56,7 +56,6 @@
 				<Flammability>0.75</Flammability>
 				<WorkToMake>1.25</WorkToMake>
 				<WorkToBuild>1.25</WorkToBuild>
-				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>
 		</stuffProps>
