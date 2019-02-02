@@ -121,10 +121,10 @@
 		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/TerrainDef[defName = "IronwoodFloor"]/costList/VG_IronWoodLog</xpath>
+				<value>
+					<LumberIronwood>4</LumberIronwood>
+				</value>
 			</li>
-			<value>
-				<LumberIronwood>4</LumberIronwood>
-			</value>
 		</operations>
 	</Operation>
 	
