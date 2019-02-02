@@ -2,15 +2,13 @@
 
 <Manifest>
     <identifier>ExpandedWoodworkingVGP</identifier>
-    <version>1.0.1.0</version>
+    <version>1.0.1.1</version>
     <dependencies>
-		<li>Core</li>
 		<li>ExpandedWoodworking</li>
 		<li>VGPVegetableGarden</li>
     </dependencies>
     <incompatibleWith>
 		<li>ExtendedWoodworking</li>
-		<li>QualitySurgeon</li>
     </incompatibleWith>
 	<loadAfter>
 		<li>StuffedWorkbenches</li>
