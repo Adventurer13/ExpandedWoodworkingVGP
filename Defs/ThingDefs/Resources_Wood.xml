@@ -52,7 +52,7 @@
 			<color>(100,100,100)</color>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
-				<Beauty>1</Beauty>
+				<Beauty>1.2</Beauty>
 				<Flammability>0.75</Flammability>
 				<WorkToMake>1.25</WorkToMake>
 				<WorkToBuild>1.25</WorkToBuild>
