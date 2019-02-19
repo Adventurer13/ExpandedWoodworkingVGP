@@ -2,7 +2,7 @@
 
 **Current:** [v1.0.1.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.1)
 
-## [1.0.1.1] - 2019-02-01
+## [1.0.1.1] - 2019-02-18
 ### New
 - Ironwood floor uses lumber.
 
