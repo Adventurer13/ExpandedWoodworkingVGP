@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<!-- Mass statFactor for VG logs (MaxHitPoints / 0.4 * 0.3) -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ExpandedWoodworking.PatchOperationModCompat">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "VG_IronWoodLog"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.5625</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Apple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.45</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Cherry"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_DatePalm"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.4875</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Fig"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.3375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Orange"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.225</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Peach"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.3375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Coconut"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.525</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+
+	<!-- Mass statFactor for VGP Xtra Trees logs (MaxHitPoints / 0.4 * 0.3)  -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ExpandedWoodworking.PatchOperationModCompat">
+				<modList>
+					<li>Combat Extended</li>
+					<li>VGP Xtra Trees and Flowers</li>
+				</modList>	
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Camellia"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.1875</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_CherryBlossom"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_JapaneseMaple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.45</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_RedMaple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.4125</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Mass statFactor for all VG lumber (MaxHitPoints / 0.4 * 0.3) -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ExpandedWoodworking.PatchOperationModCompat">
+				<modName>Combat Extended</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberIronwood"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.5625</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberApple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.45</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberCherry"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberDatePalm"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.4875</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberFig"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.3375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberOrange"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.225</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberPeach"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.3375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberCoconut"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.525</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Mass statFactor for VGP Xtra Trees lumber (MaxHitPoints / 0.4 * 0.3)  -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ExpandedWoodworking.PatchOperationModCompat">
+				<modList>
+					<li>Combat Extended</li>
+					<li>VGP Xtra Trees and Flowers</li>
+				</modList>	
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberCamellia"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.1875</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberCherryBlossom"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberJapaneseMaple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.45</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberRedMaple"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.4125</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

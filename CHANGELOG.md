@@ -1,6 +1,13 @@
 # Change Log
 
-**Current:** [v1.0.1.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.1)
+**Current:** [v1.0.1.2](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.2)
+
+## [1.0.1.2] - 2019-06-11
+### New
+- Added mass statFactors to VGP VG and Xtra Trees logs and lumber for Combat Extended compatibility.
+
+### Removed
+- Old fuel patching system within VGPXtraTrees.
 
 ## [1.0.1.1] - 2019-02-18
 ### New
