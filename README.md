@@ -18,7 +18,7 @@ Remove the previous and drop the latest release into your `RimWorld/Mods` folder
 - Realistic wood colours!
 - Seamless functionality with trees and fruit trees introduced by Vegetable Garden Project!
 - ModSync RW and Fluffy's Mod Manager support!
-- Language localisation: English, Russian (lex1975)
+- Language localisation: English, Russian (by lex1975 and DiamondGrace)
 
 ## Compatibility
 Expanded Woodworking for Vegetable Garden Project overwrites the following Vegetable Garden Project definitions:

@@ -3,54 +3,54 @@
 
 <LumberIronwood.label>доски из железного дерева</LumberIronwood.label>
 <LumberIronwood.description>Обработанные доски из железного дерева. В основном применяются для создания прочных, простых конструкций и мебели. Очень прочная древесина лиственных пород.</LumberIronwood.description>
-<LumberIronwood.stuffProps.stuffAdjective>железное дерево</LumberIronwood.stuffProps.stuffAdjective>
+<LumberIronwood.stuffProps.stuffAdjective>железного дерева</LumberIronwood.stuffProps.stuffAdjective>
 
 <LumberApple.label>доски из яблони</LumberApple.label>
 <LumberApple.description>Обработанные доски из яблони. В основном применяются для создания прочных, простых конструкций и мебели. Очень недолговечная древесина лиственных пород.</LumberApple.description>
-<LumberApple.stuffProps.stuffAdjective>яблоня</LumberApple.stuffProps.stuffAdjective>
+<LumberApple.stuffProps.stuffAdjective>яблони</LumberApple.stuffProps.stuffAdjective>
 
 <LumberCherry.label>доски из вишни</LumberCherry.label>
 <LumberCherry.description>Обработанные доски из вишни. В основном применяются для создания прочных, простых конструкций и мебели. Средне недолговечная древесина лиственных пород.</LumberCherry.description>
-<LumberCherry.stuffProps.stuffAdjective>вишня</LumberCherry.stuffProps.stuffAdjective>
+<LumberCherry.stuffProps.stuffAdjective>вишни</LumberCherry.stuffProps.stuffAdjective>
 
 <LumberDatePalm.label>доски из финиковой пальмы</LumberDatePalm.label>
 <LumberDatePalm.description>Обработанные доски из финиковой пальмы. В основном применяются для создания прочных, простых конструкций и мебели. Прочная древесина.</LumberDatePalm.description>
-<LumberDatePalm.stuffProps.stuffAdjective>финиковая пальма</LumberDatePalm.stuffProps.stuffAdjective>
+<LumberDatePalm.stuffProps.stuffAdjective>финиковой пальмы</LumberDatePalm.stuffProps.stuffAdjective>
 
 <LumberFig.label>доски из фигового дерева</LumberFig.label>
 <LumberFig.description>Обработанные доски из фигового дерева. В основном применяются для создания прочных, простых конструкций и мебели. Недолговечная и твёрдая древесина.</LumberFig.description>
-<LumberFig.stuffProps.stuffAdjective>фиговое дерево</LumberFig.stuffProps.stuffAdjective>
+<LumberFig.stuffProps.stuffAdjective>фигового дерева</LumberFig.stuffProps.stuffAdjective>
 
 <LumberOrange.label>доски из апельсинового дерева</LumberOrange.label>
 <LumberOrange.description>Обработанные доски из апельсинового дерева. В основном применяются для создания прочных, простых конструкций и мебели. Скоропортящаяся лиственная древесина.</LumberOrange.description>
-<LumberOrange.stuffProps.stuffAdjective>апельсиновое дерево</LumberOrange.stuffProps.stuffAdjective>
+<LumberOrange.stuffProps.stuffAdjective>апельсинового дерева</LumberOrange.stuffProps.stuffAdjective>
 
 <LumberPeach.label>доски из персикового дерева</LumberPeach.label>
 <LumberPeach.description>Обработанные доски из персикового дерева. В основном применяются для создания прочных, простых конструкций и мебели. Недолговечная и твёрдая древесина.</LumberPeach.description>
-<LumberPeach.stuffProps.stuffAdjective>персиковое дерево</LumberPeach.stuffProps.stuffAdjective>
+<LumberPeach.stuffProps.stuffAdjective>персикового дерева</LumberPeach.stuffProps.stuffAdjective>
 
 <LumberCoconut.label>доски из красной сургучной пальмы</LumberCoconut.label>
 <LumberCoconut.description>Обработанные доски из красной сургучной пальмы. В основном применяются для создания прочных, простых конструкций и мебели. Прочная древесина.</LumberCoconut.description>
-<LumberCoconut.stuffProps.stuffAdjective>сургучная пальма</LumberCoconut.stuffProps.stuffAdjective>
+<LumberCoconut.stuffProps.stuffAdjective>сургучной пальмы</LumberCoconut.stuffProps.stuffAdjective>
 
 <LumberAcacia.label>доски из акации</LumberAcacia.label>
 <LumberAcacia.description>Обработанные доски из акации. В основном применяются для создания прочных, простых конструкций и мебели. Акация - очень прочная лиственная древесина.</LumberAcacia.description>
-<LumberAcacia.stuffProps.stuffAdjective>акация</LumberAcacia.stuffProps.stuffAdjective>
+<LumberAcacia.stuffProps.stuffAdjective>акации</LumberAcacia.stuffProps.stuffAdjective>
 
 <LumberCamellia.label>доски из камелии</LumberCamellia.label>
 <LumberCamellia.description>Обработанные доски из камелии. В основном применяются для создания прочных, простых конструкций и мебели. Камелия - непрочная лиственная древесина.</LumberCamellia.description>
-<LumberCamellia.stuffProps.stuffAdjective>камелия</LumberCamellia.stuffProps.stuffAdjective>
+<LumberCamellia.stuffProps.stuffAdjective>камелии</LumberCamellia.stuffProps.stuffAdjective>
 
 <LumberCherryBlossom.label>доски из цветущей вишни</LumberCherryBlossom.label>
 <LumberCherryBlossom.description>Обработанные доски из цветущей вишни. В основном применяются для создания прочных, простых конструкций и мебели. Цветущая вишня - это посредственная непрочная лиственная древесина.</LumberCherryBlossom.description>
-<LumberCherryBlossom.stuffProps.stuffAdjective>цветущая вишня</LumberCherryBlossom.stuffProps.stuffAdjective>
+<LumberCherryBlossom.stuffProps.stuffAdjective>цветущей вишни</LumberCherryBlossom.stuffProps.stuffAdjective>
 
 <LumberJapaneseMaple.label>доски из японского клёна</LumberJapaneseMaple.label>
 <LumberJapaneseMaple.description>Обработанные доски из японского клёна. В основном применяются для создания прочных, простых конструкций и мебели. Японский клён - это недолговечная непрочная древесина.</LumberJapaneseMaple.description>
-<LumberJapaneseMaple.stuffProps.stuffAdjective>японский клён</LumberJapaneseMaple.stuffProps.stuffAdjective>
+<LumberJapaneseMaple.stuffProps.stuffAdjective>японского клёна</LumberJapaneseMaple.stuffProps.stuffAdjective>
 
 <LumberRedMaple.label>доски из красного клёна</LumberRedMaple.label>
 <LumberRedMaple.description>Обработанные доски из красного клёна. В основном применяются для создания прочных, простых конструкций и мебели. Красный клён - это недолговечная непрочная древесина.</LumberRedMaple.description>
-<LumberRedMaple.stuffProps.stuffAdjective>красный клён</LumberRedMaple.stuffProps.stuffAdjective>
+<LumberRedMaple.stuffProps.stuffAdjective>красного клёна</LumberRedMaple.stuffProps.stuffAdjective>
 
 </LanguageData>
