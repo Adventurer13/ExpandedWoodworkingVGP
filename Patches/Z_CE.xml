@@ -71,6 +71,12 @@
 				</modList>	
 			</li>
 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "WoodLog_Acacia"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.78375</Mass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "WoodLog_Camellia"]/stuffProps/statFactors</xpath>
 				<value>
 					<Mass>0.1875</Mass>
@@ -164,6 +170,12 @@
 					<li>Combat Extended</li>
 					<li>VGP Xtra Trees and Flowers</li>
 				</modList>	
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "LumberAcacia"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.78375</Mass>
+				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "LumberCamellia"]/stuffProps/statFactors</xpath>
