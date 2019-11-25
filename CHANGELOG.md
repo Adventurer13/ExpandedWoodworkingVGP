@@ -1,9 +1,10 @@
 # Change Log
 
-**Current:** [v1.0.1.2](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.2)
+**Current:** [v1.0.1.3](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.3)
 
 ## [1.0.1.3] - Unreleased
 ### Fixed
+- Acacia mass statFactor not applying when using VGP and CE.
 - Russian localisation (by DiamondGrace}
 
 ## [1.0.1.2] - 2019-06-11

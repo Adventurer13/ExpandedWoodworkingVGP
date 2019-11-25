@@ -2,7 +2,7 @@
 
 <Manifest>
     <identifier>ExpandedWoodworkingVGP</identifier>
-    <version>1.0.1.2</version>
+    <version>1.0.1.3</version>
     <dependencies>
 		<li>ExpandedWoodworking</li>
 		<li>VGPVegetableGarden</li>
