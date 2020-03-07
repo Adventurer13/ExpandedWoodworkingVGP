@@ -4,7 +4,7 @@
    
  	<ThingDef ParentName="WoodLogBase">
 		<defName>Bamboo</defName> <!-- SG: 0.5-0.85  W: 500-850  H: 1410-1610 -->
-		<label>raw bamboo</label>
+		<label>bamboo</label>
 		<description>Raw bamboo. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Bamboo is a perishable, fast growing grass.</description>
 		<graphicData>
 			<texPath>Things/Resources/Bamboo/bamboo</texPath>
@@ -12,7 +12,7 @@
 		</graphicData>
 		<statBases>
 			<Mass>0.6</Mass>
-			<MarketValue>1.2</MarketValue>
+			<MarketValue>1.0</MarketValue>
 			<DeteriorationRate>4</DeteriorationRate>
 		</statBases>
 		<stuffProps>
@@ -44,11 +44,14 @@
 			<Mass>0.8</Mass>
 			<MarketValue>1.9</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
 			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
-			<commonality>0.6</commonality>
+			<commonality>0.5</commonality>
 			<color>(100,100,100)</color>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
@@ -62,6 +65,11 @@
 		<butcherProducts>
 			<LumberIronwood>30</LumberIronwood>
 		</butcherProducts>
+		<tools>
+			<li>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
 	</ThingDef>   
   
 <!-- Fruit Trees -->  

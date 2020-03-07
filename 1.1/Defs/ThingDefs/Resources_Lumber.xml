@@ -11,7 +11,7 @@
 		</graphicData>
 		<statBases>
 			<Mass>0.3</Mass>
-			<MarketValue>1.4</MarketValue>
+			<MarketValue>1.2</MarketValue>
 			<DeteriorationRate>5</DeteriorationRate>
 		</statBases>
 		<stuffProps>
@@ -39,6 +39,9 @@
 			<Mass>0.4</Mass>
 			<MarketValue>2.6</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
 			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>

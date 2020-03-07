@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Production -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ExpandedWoodworking.PatchOperationModCompat">
-				<modName>VGP Garden Drinks</modName>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "Brewery"]/costStuffCount</xpath>
-				<value>
-					<costStuffCount>100</costStuffCount>
-				</value>
-			</li>
-		</operations>
+	<!-- Soda Table -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Drinks</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName = "CPD_DrinksTable"]/costList/WoodLog</xpath>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "CPD_DrinksTable"]/costStuffCount</xpath>
+						<value>
+							<costStuffCount>80</costStuffCount>
+						</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 </Patch>

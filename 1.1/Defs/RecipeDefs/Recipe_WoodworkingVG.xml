@@ -5,10 +5,12 @@
 	<RecipeDef Name="MakeWoodLumberBase" Abstract="True">
 		<jobString>Processing lumber from wood.</jobString>
 		<workAmount>500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
 		<targetCountAdjustment>15</targetCountAdjustment>
 		<recipeUsers>
 			<li>TableWoodworking</li>
