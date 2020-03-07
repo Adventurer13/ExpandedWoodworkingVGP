@@ -1,0 +1,269 @@
+<Defs> 
+	
+<!-- Plant & Vegetable Garden Wood Tree -->	
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberBamboo</defName>
+		<label>bamboo lumber</label>
+		<description>Processed bamboo lumber. Mostly useful for building long-lasting, simple structures and furniture. Bamboo is a perishable, fast growing grass.</description>
+		<graphicData>
+			<color>(248,218,158)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass>
+			<MarketValue>1.4</MarketValue>
+			<DeteriorationRate>5</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>bamboo</stuffAdjective>
+			<commonality>0.5</commonality>
+			<color>(248,218,158)</color>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Beauty>1.25</Beauty>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<DoorOpenSpeed>1.3</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberIronwood</defName>
+		<label>ironwood lumber</label>
+		<description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable hardwood.</description>
+		<graphicData>
+			<color>(100,100,100)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.4</Mass>
+			<MarketValue>2.6</MarketValue>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>ironwood</stuffAdjective>
+			<commonality>0.75</commonality>
+			<color>(100,100,100)</color>
+			<statFactors>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<Flammability>0.75</Flammability>
+				<WorkToMake>1.25</WorkToMake>
+				<WorkToBuild>1.25</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
+			</statFactors>			
+		</stuffProps>
+	</ThingDef>	
+
+<!-- Fruit Trees -->
+  
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberApple</defName>
+		<label>applewood lumber</label>
+		<description>Processed applewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Applewood is a nondurable hardwood.</description>
+		<graphicData>
+			<color>(171,133,94)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.4</Mass>
+			<MarketValue>2.4</MarketValue>
+			<DeteriorationRate>6</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>applewood</stuffAdjective>
+			<commonality>0.5</commonality>
+			<color>(171,133,94)</color>
+			<statFactors>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberCherry</defName>
+		<label>cherrywood lumber</label>
+		<description>Processed cherrywood lumber. Mostly useful for building long-lasting, simple structures and furniture. Cherrywood is a moderate to nondurable hardwood.</description>
+		<graphicData>
+			<color>(229,182,130)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass>
+			<MarketValue>3.2</MarketValue>
+			<DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>cherrywood</stuffAdjective>
+			<commonality>0.5</commonality>
+			<color>(229,182,130)</color>
+			<statFactors>
+				<MaxHitPoints>0.5</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberDatePalm</defName>
+		<label>date palm lumber</label>
+		<description>Processed date palm lumber. Mostly useful for building long-lasting, simple structures and furniture. Date palm is a durable wood.</description>
+		<graphicData>
+			<color>(218,174,69)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.35</Mass>
+			<MarketValue>3.8</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>date palm</stuffAdjective>
+			<commonality>0.35</commonality>
+			<color>(218,174,69)</color>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Beauty>0.6</Beauty>
+				<WorkToMake>0.75</WorkToMake>
+				<WorkToBuild>0.75</WorkToBuild>
+				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberFig</defName>
+		<label>figwood lumber</label>
+		<description>Processed figwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Figwood is a low to nondurable hardwood.</description>
+		<graphicData>
+			<color>(254,254,202)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MarketValue>2.8</MarketValue>
+			<DeteriorationRate>6</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>figwood</stuffAdjective>
+			<commonality>0.65</commonality>
+			<color>(254,254,202)</color>
+			<statFactors>
+				<MaxHitPoints>0.45</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<WorkToMake>0.55</WorkToMake>
+				<WorkToBuild>0.55</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<!-- <ThingDef ParentName="WoodLumberBase"> *Changed into no longer producing wood within VG*
+		<defName>LumberOlive</defName>
+		<label>olivewood lumber</label>
+		<description>Processed olivewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Olivewood is a durable to moderately durable hardwood.</description>
+		<graphicData>
+			<color>(171,131,95)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.8</Mass>
+			<MarketValue>3.6</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>olivewood</stuffAdjective>
+			<commonality>0.45</commonality>
+			<color>(171,131,95)</color>
+			<statFactors>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Beauty>1.10</Beauty>
+				<WorkToMake>0.85</WorkToMake>
+				<WorkToBuild>0.85</WorkToBuild>
+				<DoorOpenSpeed>1.8</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	-->
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberOrange</defName>
+		<label>orangewood lumber</label>
+		<description>Processed orangewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Orangewood is a perishable hardwood.</description>
+		<graphicData>
+			<color>(255,243,171)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.2</Mass>
+			<MarketValue>1.6</MarketValue>
+			<DeteriorationRate>8</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>orangewood</stuffAdjective>
+			<commonality>0.9</commonality>
+			<color>(255,243,171)</color>
+			<statFactors>
+				<MaxHitPoints>0.3</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<WorkToMake>0.4</WorkToMake>
+				<WorkToBuild>0.4</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberPeach</defName>
+		<label>peachwood lumber</label>
+		<description>Processed peachwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Peachwood is a low to nondurable hardwood.</description>
+		<graphicData>
+			<color>(213,149,59)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass>
+			<MarketValue>2.9</MarketValue>
+			<DeteriorationRate>6</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>peachwood</stuffAdjective>
+			<commonality>0.5</commonality>
+			<color>(213,149,59)</color>
+			<statFactors>
+				<MaxHitPoints>0.45</MaxHitPoints>
+				<Beauty>1.0</Beauty>
+				<WorkToMake>0.55</WorkToMake>
+				<WorkToBuild>0.55</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="WoodLumberBase">
+		<defName>LumberCoconut</defName>
+		<label>red palm lumber</label>
+		<description>Processed red palm lumber. Mostly useful for building long-lasting, simple structures and furniture. Red palm is a durable wood.</description>
+		<graphicData>
+			<color>(165,139,106)</color>
+		</graphicData>
+		<statBases>
+			<Mass>0.4</Mass>
+			<MarketValue>4.0</MarketValue>
+			<DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>red palm</stuffAdjective>
+			<commonality>0.3</commonality>
+			<color>(165,139,106)</color>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	  
+ </Defs>

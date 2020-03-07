@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Production -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ExpandedWoodworking.PatchOperationModCompat">
+				<modName>VGP Garden Drinks</modName>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "Brewery"]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>100</costStuffCount>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>
