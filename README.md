@@ -29,7 +29,7 @@ Expanded Woodworking for Vegetable Garden Project overwrites the following Veget
 Patches edit the following Vegetable Garden Project definitions:
 
 - Fruit trees from Vegetable Garden
-- Trees from Xtra Trees and Flower
+- Trees from Xtra Trees and Flowers
 - Compost starter
 - Drinks table
 - Ironwood floor
