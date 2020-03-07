@@ -1,6 +1,20 @@
 # Change Log
 
-**Current:** [v1.0.1.3](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.3)
+**Current:** [v1.0.1.1](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.0.1.1 )
+
+## [1.1.1.0] - Unreleased
+### New
+- Assembly file using .NET Framework 4.7.2 and added UnityEngine.CoreModule as a reference.
+- Folder structure separating versions 1.0 and 1.1 of Rimworld and using LoadFolders.xml for 1.1 and future versions.
+- Add package Id: Adventurer.ExpandWoodworkVGP and updated About.xml to work with the Auto-sort button.
+- Updated Bamboo and Ironwood stats.
+- VGP Garden Fabric patch to allow Tier 1 loom table to be made out of logs as well.
+- Optional Dyes barrel patch for VGP Garden Dyes (requires user to uncomment patch to use).
+
+### Fixed
+- Base Lumber Recipe to be in-line with main mod.
+- VGP Garden Drinks patch to modify the drinks table to no longer require mixed lumber for a general increase in cost.
+- VGP Garden Tools patch to include bulk compost as well.
 
 ## [1.0.1.3] - 2019-11-24
 ### Fixed
