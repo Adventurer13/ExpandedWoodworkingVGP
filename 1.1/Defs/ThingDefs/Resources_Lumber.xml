@@ -29,7 +29,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="WoodLumberBase">
-		<defName>LumberIronwood</defName>
+		<defName>VG_LumberIronwood</defName>
 		<label>ironwood lumber</label>
 		<description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable hardwood.</description>
 		<graphicData>

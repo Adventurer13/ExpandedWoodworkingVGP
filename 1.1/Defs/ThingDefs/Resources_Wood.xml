@@ -63,7 +63,7 @@
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
-			<LumberIronwood>30</LumberIronwood>
+			<VG_LumberIronwood>30</VG_LumberIronwood>
 		</butcherProducts>
 		<tools>
 			<li>

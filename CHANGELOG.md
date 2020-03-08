@@ -8,6 +8,7 @@
 - Folder structure separating versions 1.0 and 1.1 of Rimworld and using LoadFolders.xml for 1.1 and future versions.
 - Add package Id: Adventurer.ExpandWoodworkVGP and updated About.xml to work with the Auto-sort button.
 - Updated Bamboo and Ironwood stats.
+- Changed def 'LumberIronwood' to 'VG_LumberIronwood'. Affects recipe def as well.
 - VGP Garden Fabric patch to allow Tier 1 loom table to be made out of logs as well.
 - Optional Dyes barrel patch for VGP Garden Dyes (requires user to uncomment patch to use).
 

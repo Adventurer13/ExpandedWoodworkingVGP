@@ -21,7 +21,7 @@
 <!-- VG Lumber -->		
 	
 	<RecipeDef ParentName="MakeWoodLumberBase">
-		<defName>MakeWoodLumberIronwood</defName>
+		<defName>VG_MakeWoodLumberIronwood</defName>
 		<label>make ironwood lumber</label>
 		<description>Process raw ironwood logs into lumber for construction.</description>
 		<allowMixingIngredients>false</allowMixingIngredients>
@@ -41,7 +41,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<LumberIronwood>30</LumberIronwood>
+			<VG_LumberIronwood>30</VG_LumberIronwood>
 		</products>
 	</RecipeDef>
 	
