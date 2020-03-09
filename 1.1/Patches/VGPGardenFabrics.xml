@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Soda Table -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Fabrics</li>
+			<li>VGP Garden Fabrics Simplified</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "TableLoom"]/stuffCategories</xpath>
+			<value>
+				<li>RawWoody</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>
