@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Recipes_Butcher -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Tools</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/RecipeDef[defName = "MakeCompostStarter" or defName = "MakeBulkCompostStarter"]/ingredients/li/filter/thingDefs[li = "WoodLog"]</xpath>
+					<value>
+						<categories>
+							<li>WoodTypes</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/RecipeDef[defName = "MakeCompostStarter" or defName = "MakeBulkCompostStarter"]/fixedIngredientFilter/thingDefs[li = "WoodLog"]</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName = "MakeCompostStarter" or defName = "MakeBulkCompostStarter"]/fixedIngredientFilter/categories</xpath>
+					<value>
+						<li>WoodTypes</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
