@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- Production - Dye Barrel (optional until author makes mask)
+	<!-- Production - Dye Barrel (optional until author makes mask, so water isn't modified by color of wood)
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>VGP Garden Dyes</li>
