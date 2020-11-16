@@ -5,6 +5,7 @@
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>VGP Garden Drinks</li>
+			<li>VGP Garden Drinks UF</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
