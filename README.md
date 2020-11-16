@@ -1,7 +1,7 @@
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 [![RimWorld 1.0](https://img.shields.io/badge/RimWorld-1.0-brightgreen.svg)](http://rimworldgame.com/)
-[![RimWorld 1.1](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld 1.1+](https://img.shields.io/badge/RimWorld-1.1%2B-brightgreen)](http://rimworldgame.com/)
 
 # Expanded Woodworking for Vegetable Garden Project
 An upgrade to Qwynn's compatibility patch which extends Expanded Woodworking's functionality to Vegetable Garden.
@@ -32,12 +32,12 @@ Patches edit the following Vegetable Garden Project definitions:
 - Trees from Xtra Trees and Flowers
 - Compost starter
 - Drinks table
-- Ironwood floor
+- Ironwood floors
 - Loom
 
 ## Found a Bug?
 Make sure you have developer mode enabled in Rimworld before creating a bug report, then create a bug report [here](https://github.com/Adventurer13/ExpandedWoodworkingVGP/issues). Please provide your exported HugsLib log.
 
 ## Older Versions
-All current and past 1.1/1.0/B19/B18/A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
+All current and past 1.2/1.1/1.0/B19/B18/A17 versions can be downloaded from [GitHub](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases).
 All past A16 versions can be downloaded from [Qwynn's GitHub](https://github.com/Qwynn/ExpandedWoodworkingVG/releases).
