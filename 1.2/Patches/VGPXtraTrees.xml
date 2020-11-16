@@ -38,6 +38,12 @@
 					<harvestedThingDef>WoodLog_RedMaple</harvestedThingDef>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Plant_TreeRandom"]/plant</xpath>
+				<value>
+					<harvestedThingDef>WoodLog_GenericTrue</harvestedThingDef>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 	
