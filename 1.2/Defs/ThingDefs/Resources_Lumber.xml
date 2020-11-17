@@ -11,12 +11,15 @@
 		</graphicData>
 		<statBases>
 			<Mass>0.3</Mass>
-			<MarketValue>1.2</MarketValue>
+			<MarketValue>1.4</MarketValue>
 			<DeteriorationRate>5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>bamboo</stuffAdjective>
-			<commonality>0.5</commonality>
+			<commonality>0.00001</commonality>
 			<color>(248,218,158)</color>
 			<statFactors>
 				<MaxHitPoints>0.5</MaxHitPoints>
@@ -31,23 +34,26 @@
 	<ThingDef ParentName="WoodLumberBase">
 		<defName>VG_LumberIronwood</defName>
 		<label>ironwood lumber</label>
-		<description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable hardwood.</description>
+		<description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable and beautiful hardwood.</description>
 		<graphicData>
 			<color>(100,100,100)</color>
 		</graphicData>
 		<statBases>
 			<Mass>0.4</Mass>
-			<MarketValue>2.6</MarketValue>
+			<MarketValue>3.6</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
-			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+			<StuffPower_Armor_Heat>0.8</StuffPower_Armor_Heat>
+			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
-			<commonality>0.75</commonality>
+			<commonality>0.01</commonality>
 			<color>(100,100,100)</color>
+			<statOffsets>
+				<Beauty>4</Beauty>
+			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
 				<Beauty>2.6</Beauty>
@@ -57,6 +63,7 @@
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 			</statFactors>			
 		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 	</ThingDef>	
 
 <!-- Fruit Trees -->

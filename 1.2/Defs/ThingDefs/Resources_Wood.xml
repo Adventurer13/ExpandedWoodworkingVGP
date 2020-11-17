@@ -14,10 +14,13 @@
 			<Mass>0.6</Mass>
 			<MarketValue>1.0</MarketValue>
 			<DeteriorationRate>4</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>bamboo</stuffAdjective>
-			<commonality>0.5</commonality>
+			<commonality>0.00001</commonality>
 			<color>(248,218,158)</color>
 			<statFactors>
 				<MaxHitPoints>0.5</MaxHitPoints>
@@ -29,13 +32,19 @@
 		</stuffProps>
 		<butcherProducts>
 			<LumberBamboo>30</LumberBamboo>
-		</butcherProducts>		
+		</butcherProducts>
+		<tools>
+			<li>
+				<power>9.7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
 	</ThingDef>
   
 	<ThingDef ParentName="WoodLogBase">
 		<defName>VG_IronWoodLog</defName>
 		<label>ironwood logs</label>
-		<description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable hardwood.</description>
+		<description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable and beautiful hardwood.</description>
 		<graphicData>
 			<texPath>Things/Item/IronWoodLog</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -43,16 +52,20 @@
 		<statBases>
 			<Mass>0.8</Mass>
 			<MarketValue>1.9</MarketValue>
-			<DeteriorationRate>1</DeteriorationRate>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<Flammability>0.25</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Heat>0.8</StuffPower_Armor_Heat>
 			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>ironwood</stuffAdjective>
-			<commonality>0.5</commonality>
+			<commonality>0.01</commonality>
 			<color>(100,100,100)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>0.75</MaxHitPoints>
 				<Beauty>2.6</Beauty>
@@ -70,6 +83,7 @@
 				<cooldownTime>2.2</cooldownTime>
 			</li>
 		</tools>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 	</ThingDef>   
   
 <!-- Fruit Trees -->  
