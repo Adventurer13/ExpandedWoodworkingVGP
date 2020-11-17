@@ -2,554 +2,562 @@
 <Patch>
 
 	<!-- Extra Trees -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ExpandedWoodworking.PatchOperationModCompat">
-					<modName>VGP Xtra Trees and Flowers</modName>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "PlantTreeJapaneseMaple"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_JapaneseMaple</harvestedThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "PlantTreeCherryBlossom"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_CherryBlossom</harvestedThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "PlantTreeCamellia"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_Camellia</harvestedThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "PlantTreeAcacia"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_Acacia</harvestedThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "PlantTreeRedMaple"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_RedMaple</harvestedThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "Plant_TreeRandom"]/plant</xpath>
-				<value>
-					<harvestedThingDef>WoodLog_GenericTrue</harvestedThingDef>
-				</value>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Xtra Trees and Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PlantTreeJapaneseMaple"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_JapaneseMaple</harvestedThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PlantTreeCherryBlossom"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_CherryBlossom</harvestedThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PlantTreeCamellia"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_Camellia</harvestedThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PlantTreeAcacia"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_Acacia</harvestedThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "PlantTreeRedMaple"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_RedMaple</harvestedThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "Plant_TreeRandom"]/plant</xpath>
+					<value>
+						<harvestedThingDef>WoodLog_GenericTrue</harvestedThingDef>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 	<!-- Extra Trees Logs -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ExpandedWoodworking.PatchOperationModCompat">
-					<modName>VGP Xtra Trees and Flowers</modName>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "WoodLog_Apple"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLogBase">
-						<defName>WoodLog_Acacia</defName> <!-- SG: 1.19  W: 1185  H: 3680 -->
-						<label>acacia logs</label>
-						<description>Raw wood from an acacia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Acacia is a very durable hardwood.</description>
-						<graphicData>
-							<color>(81,56,49)</color>
-						</graphicData>
-						<statBases>
-							<Mass>1.2</Mass>
-							<MarketValue>2.3</MarketValue>
-							<DeteriorationRate>0.5</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>acacia</stuffAdjective>
-							<commonality>0.25</commonality>
-							<color>(81,56,49)</color>
-							<statFactors>
-								<MaxHitPoints>0.95</MaxHitPoints>
-								<Beauty>1.9</Beauty>
-								<WorkToMake>1.7</WorkToMake>
-								<WorkToBuild>1.7</WorkToBuild>
-								<DoorOpenSpeed>0.6</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-						<butcherProducts>
-							<LumberAcacia>30</LumberAcacia>
-						</butcherProducts>		
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "WoodLog_Cherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLogBase">
-						<defName>WoodLog_Camellia</defName> <!-- SG:   W:   H:  -->
-						<label>camellia logs</label>
-						<description>Raw wood from a camellia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Camellia is a perishable hardwood.</description>
-						<graphicData>
-							<color>(240,209,155)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.3</Mass>
-							<MarketValue>1.0</MarketValue>
-							<DeteriorationRate>6</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>camellia</stuffAdjective>
-							<commonality>0.95</commonality>
-							<color>(240,209,155)</color>
-							<statFactors>
-								<MaxHitPoints>0.25</MaxHitPoints>
-								<Beauty>2.65</Beauty>
-								<WorkToMake>0.35</WorkToMake>
-								<WorkToBuild>0.35</WorkToBuild>
-								<DoorOpenSpeed>1.4</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-						<butcherProducts>
-							<LumberCamellia>30</LumberCamellia>
-						</butcherProducts>		
-					</ThingDef>  
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "WoodLog_Cherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLogBase">
-						<defName>WoodLog_CherryBlossom</defName> <!-- SG:   W:   H:  -->
-						<label>cherry blossom logs</label>
-						<description>Raw wood from a cherry blossom tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Cherry blossom is a moderate to nondurable hardwood.</description>
-						<graphicData>
-							<color>(198,127,49)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.6</Mass>
-							<MarketValue>1.5</MarketValue>
-							<DeteriorationRate>4</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>cherry blossom</stuffAdjective>
-							<commonality>0.6</commonality>
-							<color>(198,127,49)</color>
-							<statFactors>
-								<MaxHitPoints>0.5</MaxHitPoints>
-								<Beauty>2.5</Beauty>
-								<WorkToMake>0.6</WorkToMake>
-								<WorkToBuild>0.6</WorkToBuild>
-								<DoorOpenSpeed>1.2</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-						<butcherProducts>
-							<LumberCherryBlossom>30</LumberCherryBlossom>
-						</butcherProducts>		
-					</ThingDef>  
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "WoodLog_Orange"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLogBase">
-						<defName>WoodLog_JapaneseMaple</defName> <!-- SG: 0.64  W: 641  H: ~1400 -->
-						<label>japanese maple logs</label>
-						<description>Raw wood from a japanese maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Japanese maple is a nondurable to perishable hardwood.</description>
-						<graphicData>
-							<color>(245,214,168)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.6</Mass>
-							<MarketValue>2.2</MarketValue>
-							<DeteriorationRate>5</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>japanese maple</stuffAdjective>
-							<commonality>0.3</commonality>
-							<color>(245,214,168)</color>
-							<statFactors>
-								<MaxHitPoints>0.6</MaxHitPoints>
-								<Beauty>3.5</Beauty>
-								<WorkToMake>0.7</WorkToMake>
-								<WorkToBuild>0.7</WorkToBuild>
-								<DoorOpenSpeed>1.1</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-						<butcherProducts>
-							<LumberJapaneseMaple>30</LumberJapaneseMaple>
-						</butcherProducts>		
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "WoodLog_Coconut"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLogBase">
-						<defName>WoodLog_RedMaple</defName> <!-- SG: 0.61  W: 610  H: 950 -->
-						<label>red maple logs</label>
-						<description>Raw wood from a red maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Red maple is a nondurable to perishable hardwood.</description>
-						<graphicData>
-							<color>(177,136,90)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.6</Mass>
-							<MarketValue>1.5</MarketValue>
-							<DeteriorationRate>5</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>red maple</stuffAdjective>
-							<commonality>0.55</commonality>
-							<color>(177,136,90)</color>
-							<statFactors>
-								<MaxHitPoints>0.55</MaxHitPoints>
-								<Beauty>2.4</Beauty>
-								<WorkToMake>0.5</WorkToMake>
-								<WorkToBuild>0.5</WorkToBuild>
-								<DoorOpenSpeed>1.2</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-						<butcherProducts>
-							<LumberRedMaple>30</LumberRedMaple>
-						</butcherProducts>		
-					</ThingDef>
-				</value>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Xtra Trees and Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Apple"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_Acacia</defName> <!-- SG: 1.19  W: 1185  H: 3680 -->
+							<label>acacia logs</label>
+							<description>Raw wood from an acacia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Acacia is a very durable hardwood.</description>
+							<graphicData>
+								<color>(81,56,49)</color>
+							</graphicData>
+							<statBases>
+								<Mass>1.2</Mass>
+								<MarketValue>2.3</MarketValue>
+								<DeteriorationRate>0.5</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>acacia</stuffAdjective>
+								<commonality>0.25</commonality>
+								<color>(81,56,49)</color>
+								<statFactors>
+									<MaxHitPoints>0.95</MaxHitPoints>
+									<Beauty>1.9</Beauty>
+									<WorkToMake>1.7</WorkToMake>
+									<WorkToBuild>1.7</WorkToBuild>
+									<DoorOpenSpeed>0.6</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberAcacia>30</LumberAcacia>
+							</butcherProducts>		
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Cherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_Camellia</defName> <!-- SG:   W:   H:  -->
+							<label>camellia logs</label>
+							<description>Raw wood from a camellia tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Camellia is a perishable hardwood.</description>
+							<graphicData>
+								<color>(240,209,155)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.3</Mass>
+								<MarketValue>1.0</MarketValue>
+								<DeteriorationRate>6</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>camellia</stuffAdjective>
+								<commonality>0.95</commonality>
+								<color>(240,209,155)</color>
+								<statFactors>
+									<MaxHitPoints>0.25</MaxHitPoints>
+									<Beauty>2.65</Beauty>
+									<WorkToMake>0.35</WorkToMake>
+									<WorkToBuild>0.35</WorkToBuild>
+									<DoorOpenSpeed>1.4</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberCamellia>30</LumberCamellia>
+							</butcherProducts>		
+						</ThingDef>  
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Cherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_CherryBlossom</defName> <!-- SG:   W:   H:  -->
+							<label>cherry blossom logs</label>
+							<description>Raw wood from a cherry blossom tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Cherry blossom is a moderate to nondurable hardwood.</description>
+							<graphicData>
+								<color>(198,127,49)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.6</Mass>
+								<MarketValue>1.5</MarketValue>
+								<DeteriorationRate>4</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>cherry blossom</stuffAdjective>
+								<commonality>0.6</commonality>
+								<color>(198,127,49)</color>
+								<statFactors>
+									<MaxHitPoints>0.5</MaxHitPoints>
+									<Beauty>2.5</Beauty>
+									<WorkToMake>0.6</WorkToMake>
+									<WorkToBuild>0.6</WorkToBuild>
+									<DoorOpenSpeed>1.2</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberCherryBlossom>30</LumberCherryBlossom>
+							</butcherProducts>		
+						</ThingDef>  
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Orange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_JapaneseMaple</defName> <!-- SG: 0.64  W: 641  H: ~1400 -->
+							<label>japanese maple logs</label>
+							<description>Raw wood from a japanese maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Japanese maple is a nondurable to perishable hardwood.</description>
+							<graphicData>
+								<color>(245,214,168)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.6</Mass>
+								<MarketValue>2.2</MarketValue>
+								<DeteriorationRate>5</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>japanese maple</stuffAdjective>
+								<commonality>0.3</commonality>
+								<color>(245,214,168)</color>
+								<statFactors>
+									<MaxHitPoints>0.6</MaxHitPoints>
+									<Beauty>3.5</Beauty>
+									<WorkToMake>0.7</WorkToMake>
+									<WorkToBuild>0.7</WorkToBuild>
+									<DoorOpenSpeed>1.1</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberJapaneseMaple>30</LumberJapaneseMaple>
+							</butcherProducts>		
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Coconut"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_RedMaple</defName> <!-- SG: 0.61  W: 610  H: 950 -->
+							<label>red maple logs</label>
+							<description>Raw wood from a red maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Red maple is a nondurable to perishable hardwood.</description>
+							<graphicData>
+								<color>(177,136,90)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.6</Mass>
+								<MarketValue>1.5</MarketValue>
+								<DeteriorationRate>5</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>red maple</stuffAdjective>
+								<commonality>0.55</commonality>
+								<color>(177,136,90)</color>
+								<statFactors>
+									<MaxHitPoints>0.55</MaxHitPoints>
+									<Beauty>2.4</Beauty>
+									<WorkToMake>0.5</WorkToMake>
+									<WorkToBuild>0.5</WorkToBuild>
+									<DoorOpenSpeed>1.2</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberRedMaple>30</LumberRedMaple>
+							</butcherProducts>		
+						</ThingDef>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 	<!-- Extra Trees Lumber -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ExpandedWoodworking.PatchOperationModCompat">
-					<modName>VGP Xtra Trees and Flowers</modName>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "LumberApple"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLumberBase">
-						<defName>LumberAcacia</defName>
-						<label>acacia lumber</label>
-						<description>Processed acacia lumber. Mostly useful for building long-lasting, simple structures and furniture. Acacia is a very durable hardwood.</description>
-						<graphicData>
-							<color>(81,56,49)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.6</Mass>
-							<MarketValue>4.8</MarketValue>
-							<DeteriorationRate>1</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>acacia</stuffAdjective>
-							<commonality>0.2</commonality>
-							<color>(81,56,49)</color>
-							<statFactors>
-								<MaxHitPoints>0.95</MaxHitPoints>
-								<Beauty>1.9</Beauty>
-								<WorkToMake>1.7</WorkToMake>
-								<WorkToBuild>1.7</WorkToBuild>
-								<DoorOpenSpeed>0.6</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "LumberCherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLumberBase">
-						<defName>LumberCamellia</defName>
-						<label>camellia lumber</label>
-						<description>Processed camellia lumber. Mostly useful for building long-lasting, simple structures and furniture. Camellia is a perishable hardwood.</description>
-						<graphicData>
-							<color>(240,209,155)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.15</Mass>
-							<MarketValue>1.6</MarketValue>
-							<DeteriorationRate>9</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>camellia</stuffAdjective>
-							<commonality>0.95</commonality>
-							<color>(240,209,155)</color>
-							<statFactors>
-								<MaxHitPoints>0.25</MaxHitPoints>
-								<Beauty>2.65</Beauty>
-								<WorkToMake>0.35</WorkToMake>
-								<WorkToBuild>0.35</WorkToBuild>
-								<DoorOpenSpeed>1.4</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "LumberCherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLumberBase">
-						<defName>LumberCherryBlossom</defName>
-						<label>cherry blossom lumber</label>
-						<description>Processed cherry blossom lumber. Mostly useful for building long-lasting, simple structures and furniture. Cherry blossom is a moderate to nondurable hardwood.</description>
-						<graphicData>
-							<color>(198,127,49)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.3</Mass>
-							<MarketValue>3.4</MarketValue>
-							<DeteriorationRate>5</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>cherry blossom</stuffAdjective>
-							<commonality>0.5</commonality>
-							<color>(198,127,49)</color>
-							<statFactors>
-								<MaxHitPoints>0.6</MaxHitPoints>
-								<Beauty>2.5</Beauty>
-								<WorkToMake>0.6</WorkToMake>
-								<WorkToBuild>0.6</WorkToBuild>
-								<DoorOpenSpeed>1.2</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "LumberOrange"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLumberBase">
-						<defName>LumberJapaneseMaple</defName>
-						<label>japanese maple lumber</label>
-						<description>Processed japanese maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Japanese maple is a nondurable to perishable hardwood.</description>
-						<graphicData>
-							<color>(245,214,168)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.3</Mass>
-							<MarketValue>4.5</MarketValue>
-							<DeteriorationRate>6</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>japanese maple</stuffAdjective>
-							<commonality>0.3</commonality>
-							<color>(245,214,168)</color>
-							<statFactors>
-								<MaxHitPoints>0.6</MaxHitPoints>
-								<Beauty>3.5</Beauty>
-								<WorkToMake>0.7</WorkToMake>
-								<WorkToBuild>0.7</WorkToBuild>
-								<DoorOpenSpeed>1.1</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-					</ThingDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/ThingDef[defName = "LumberCoconut"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<ThingDef ParentName="WoodLumberBase">
-						<defName>LumberRedMaple</defName>
-						<label>red maple lumber</label>
-						<description>Processed red maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Red maple is a nondurable to perishable hardwood.</description>
-						<graphicData>
-							<color>(177,136,90)</color>
-						</graphicData>
-						<statBases>
-							<Mass>0.3</Mass>
-							<MarketValue>3.2</MarketValue>
-							<DeteriorationRate>6</DeteriorationRate>
-						</statBases>
-						<stuffProps>
-							<stuffAdjective>red maple</stuffAdjective>
-							<commonality>0.55</commonality>
-							<color>(177,136,90)</color>
-							<statFactors>
-								<MaxHitPoints>0.55</MaxHitPoints>
-								<Beauty>2.4</Beauty>
-								<WorkToMake>0.5</WorkToMake>
-								<WorkToBuild>0.5</WorkToBuild>
-								<DoorOpenSpeed>1.2</DoorOpenSpeed>
-							</statFactors>
-						</stuffProps>
-					</ThingDef>
-				</value>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Xtra Trees and Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberApple"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberAcacia</defName>
+							<label>acacia lumber</label>
+							<description>Processed acacia lumber. Mostly useful for building long-lasting, simple structures and furniture. Acacia is a very durable hardwood.</description>
+							<graphicData>
+								<color>(81,56,49)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.6</Mass>
+								<MarketValue>4.8</MarketValue>
+								<DeteriorationRate>1</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>acacia</stuffAdjective>
+								<commonality>0.2</commonality>
+								<color>(81,56,49)</color>
+								<statFactors>
+									<MaxHitPoints>0.95</MaxHitPoints>
+									<Beauty>1.9</Beauty>
+									<WorkToMake>1.7</WorkToMake>
+									<WorkToBuild>1.7</WorkToBuild>
+									<DoorOpenSpeed>0.6</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberCherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberCamellia</defName>
+							<label>camellia lumber</label>
+							<description>Processed camellia lumber. Mostly useful for building long-lasting, simple structures and furniture. Camellia is a perishable hardwood.</description>
+							<graphicData>
+								<color>(240,209,155)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.15</Mass>
+								<MarketValue>1.6</MarketValue>
+								<DeteriorationRate>9</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>camellia</stuffAdjective>
+								<commonality>0.95</commonality>
+								<color>(240,209,155)</color>
+								<statFactors>
+									<MaxHitPoints>0.25</MaxHitPoints>
+									<Beauty>2.65</Beauty>
+									<WorkToMake>0.35</WorkToMake>
+									<WorkToBuild>0.35</WorkToBuild>
+									<DoorOpenSpeed>1.4</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberCherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberCherryBlossom</defName>
+							<label>cherry blossom lumber</label>
+							<description>Processed cherry blossom lumber. Mostly useful for building long-lasting, simple structures and furniture. Cherry blossom is a moderate to nondurable hardwood.</description>
+							<graphicData>
+								<color>(198,127,49)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.3</Mass>
+								<MarketValue>3.4</MarketValue>
+								<DeteriorationRate>5</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>cherry blossom</stuffAdjective>
+								<commonality>0.5</commonality>
+								<color>(198,127,49)</color>
+								<statFactors>
+									<MaxHitPoints>0.6</MaxHitPoints>
+									<Beauty>2.5</Beauty>
+									<WorkToMake>0.6</WorkToMake>
+									<WorkToBuild>0.6</WorkToBuild>
+									<DoorOpenSpeed>1.2</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberOrange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberJapaneseMaple</defName>
+							<label>japanese maple lumber</label>
+							<description>Processed japanese maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Japanese maple is a nondurable to perishable hardwood.</description>
+							<graphicData>
+								<color>(245,214,168)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.3</Mass>
+								<MarketValue>4.5</MarketValue>
+								<DeteriorationRate>6</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>japanese maple</stuffAdjective>
+								<commonality>0.3</commonality>
+								<color>(245,214,168)</color>
+								<statFactors>
+									<MaxHitPoints>0.6</MaxHitPoints>
+									<Beauty>3.5</Beauty>
+									<WorkToMake>0.7</WorkToMake>
+									<WorkToBuild>0.7</WorkToBuild>
+									<DoorOpenSpeed>1.1</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberCoconut"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberRedMaple</defName>
+							<label>red maple lumber</label>
+							<description>Processed red maple lumber. Mostly useful for building long-lasting, simple structures and furniture. Red maple is a nondurable to perishable hardwood.</description>
+							<graphicData>
+								<color>(177,136,90)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.3</Mass>
+								<MarketValue>3.2</MarketValue>
+								<DeteriorationRate>6</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>red maple</stuffAdjective>
+								<commonality>0.55</commonality>
+								<color>(177,136,90)</color>
+								<statFactors>
+									<MaxHitPoints>0.55</MaxHitPoints>
+									<Beauty>2.4</Beauty>
+									<WorkToMake>0.5</WorkToMake>
+									<WorkToBuild>0.5</WorkToBuild>
+									<DoorOpenSpeed>1.2</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 	<!-- Extra Trees Lumber Recipes -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ExpandedWoodworking.PatchOperationModCompat">
-					<modName>VGP Xtra Trees and Flowers</modName>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberApple"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<RecipeDef ParentName="MakeWoodLumberBase">
-						<defName>MakeWoodLumberAcacia</defName>
-						<label>make acacia lumber</label>
-						<description>Process raw acacia logs into lumber for construction.</description>
-						<allowMixingIngredients>false</allowMixingIngredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>WoodLog_Acacia</li>
-									</thingDefs>
-								</filter>
-								<count>15</count>
-							</li>
-						</ingredients>
-						<fixedIngredientFilter>
-							<thingDefs>
-								<li>WoodLog_Acacia</li>
-							</thingDefs>
-						</fixedIngredientFilter>
-						<products>
-							<LumberAcacia>30</LumberAcacia>
-						</products>
-					</RecipeDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<RecipeDef ParentName="MakeWoodLumberBase">
-						<defName>MakeWoodLumberCamellia</defName>
-						<label>make camellia lumber</label>
-						<description>Process raw camellia logs into lumber for construction.</description>
-						<allowMixingIngredients>false</allowMixingIngredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>WoodLog_Camellia</li>
-									</thingDefs>
-								</filter>
-								<count>15</count>
-							</li>
-						</ingredients>
-						<fixedIngredientFilter>
-							<thingDefs>
-								<li>WoodLog_Camellia</li>
-							</thingDefs>
-						</fixedIngredientFilter>
-						<products>
-							<LumberCamellia>30</LumberCamellia>
-						</products>
-					</RecipeDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCherry"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<RecipeDef ParentName="MakeWoodLumberBase">
-						<defName>MakeWoodLumberCherryBlossom</defName>
-						<label>make cherry blossom lumber</label>
-						<description>Process raw cherry blossom logs into lumber for construction.</description>
-						<allowMixingIngredients>false</allowMixingIngredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>WoodLog_CherryBlossom</li>
-									</thingDefs>
-								</filter>
-								<count>15</count>
-							</li>
-						</ingredients>
-						<fixedIngredientFilter>
-							<thingDefs>
-								<li>WoodLog_CherryBlossom</li>
-							</thingDefs>
-						</fixedIngredientFilter>
-						<products>
-							<LumberCherryBlossom>30</LumberCherryBlossom>
-						</products>
-					</RecipeDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberOrange"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<RecipeDef ParentName="MakeWoodLumberBase">
-						<defName>MakeWoodLumberJapaneseMaple</defName>
-						<label>make japanese maple lumber</label>
-						<description>Process raw japanese maple logs into lumber for construction.</description>
-						<allowMixingIngredients>false</allowMixingIngredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>WoodLog_JapaneseMaple</li>
-									</thingDefs>
-								</filter>
-								<count>15</count>
-							</li>
-						</ingredients>
-						<fixedIngredientFilter>
-							<thingDefs>
-								<li>WoodLog_JapaneseMaple</li>
-							</thingDefs>
-						</fixedIngredientFilter>
-						<products>
-							<LumberJapaneseMaple>30</LumberJapaneseMaple>
-						</products>
-					</RecipeDef>
-				</value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCoconut"]</xpath>
-				<order>Prepend</order>
-				<value>
-					<RecipeDef ParentName="MakeWoodLumberBase">
-						<defName>MakeWoodLumberRedMaple</defName>
-						<label>make red maple lumber</label>
-						<description>Process raw red raple logs into lumber for construction.</description>
-						<allowMixingIngredients>false</allowMixingIngredients>
-						<ingredients>
-							<li>
-								<filter>
-									<thingDefs>
-										<li>WoodLog_RedMaple</li>
-									</thingDefs>
-								</filter>
-								<count>15</count>
-							</li>
-						</ingredients>
-						<fixedIngredientFilter>
-							<thingDefs>
-								<li>WoodLog_RedMaple</li>
-							</thingDefs>
-						</fixedIngredientFilter>
-						<products>
-							<LumberRedMaple>30</LumberRedMaple>
-						</products>
-					</RecipeDef>
-				</value>
-			</li>
-		</operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Xtra Trees and Flowers</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberApple"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberAcacia</defName>
+							<label>make acacia lumber</label>
+							<description>Process raw acacia logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_Acacia</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_Acacia</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberAcacia>30</LumberAcacia>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberCamellia</defName>
+							<label>make camellia lumber</label>
+							<description>Process raw camellia logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_Camellia</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_Camellia</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberCamellia>30</LumberCamellia>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCherry"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberCherryBlossom</defName>
+							<label>make cherry blossom lumber</label>
+							<description>Process raw cherry blossom logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_CherryBlossom</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_CherryBlossom</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberCherryBlossom>30</LumberCherryBlossom>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberOrange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberJapaneseMaple</defName>
+							<label>make japanese maple lumber</label>
+							<description>Process raw japanese maple logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_JapaneseMaple</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_JapaneseMaple</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberJapaneseMaple>30</LumberJapaneseMaple>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberCoconut"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberRedMaple</defName>
+							<label>make red maple lumber</label>
+							<description>Process raw red raple logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_RedMaple</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_RedMaple</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberRedMaple>30</LumberRedMaple>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 	
 </Patch>
