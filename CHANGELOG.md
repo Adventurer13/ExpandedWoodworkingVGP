@@ -7,10 +7,12 @@
 - Beauty values for each wood and lumber.
 - Assorted Tree support within VGPXtraTrees.
 - Support for VGP Garden Drinks UF.
+- Mango Tree support within VGP More Veggies.
 
 ### Fixed
 - Fine Ironwood floor to use lumber instead of logs.
 - Woodworking tables use updated recipe sounds when crafting lumber. 
+- PatchOperation clean-up.
 
 ## [1.1.1.0] - 2020-03-08
 ### New
