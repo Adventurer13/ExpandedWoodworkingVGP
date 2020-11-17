@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Cultivated Wood-Producing Mango Tree -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP More Veggies</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "PlantMangoTree"]</xpath>
+			<value>
+				<thingClass>ExpandedWoodworkingVG.Mango</thingClass>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Mango Log and Lumber -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP More Veggies</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "WoodLog_Orange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLogBase">
+							<defName>WoodLog_Mango</defName> <!-- SG: 0.68  W: 675  H: 1070 -->
+							<label>mangowood logs</label>
+							<description>Raw wood from a mango tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Mangowood is a moderately durable to perishable hardwood.</description>
+							<graphicData>
+								<color>(215,168,112)</color>
+							</graphicData>
+							<statBases>
+								<Mass>0.6</Mass>
+								<MarketValue>2.0</MarketValue>
+								<DeteriorationRate>3</DeteriorationRate>
+							</statBases>
+							<stuffProps>
+								<stuffAdjective>mangowood</stuffAdjective>
+								<commonality>0.25</commonality>
+								<color>(215,168,112)</color>
+								<statFactors>
+									<MaxHitPoints>0.55</MaxHitPoints>
+									<Beauty>3.2</Beauty>
+									<WorkToMake>0.55</WorkToMake>
+									<WorkToBuild>0.55</WorkToBuild>
+									<DoorOpenSpeed>1.2</DoorOpenSpeed>
+								</statFactors>
+							</stuffProps>
+							<butcherProducts>
+								<LumberMango>30</LumberMango>
+							</butcherProducts>		
+						</ThingDef>  
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/ThingDef[defName = "LumberOrange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<ThingDef ParentName="WoodLumberBase">
+							<defName>LumberMango</defName>
+							<label>mangowood lumber</label>
+							<description>Processed mangowood lumber. Mostly useful for building long-lasting, simple structures and furniture. Mangowood is a moderately durable to perishable hardwood.</description>
+							<graphicData>
+									<color>(215,168,112)</color>
+								</graphicData>
+								<statBases>
+									<Mass>0.3</Mass>
+									<MarketValue>4.0</MarketValue>
+									<DeteriorationRate>4</DeteriorationRate>
+								</statBases>
+								<stuffProps>
+									<stuffAdjective>mangowood</stuffAdjective>
+									<commonality>0.25</commonality>
+									<color>(215,168,112)</color>
+									<statFactors>
+										<MaxHitPoints>0.55</MaxHitPoints>
+										<Beauty>3.2</Beauty>
+										<WorkToMake>0.55</WorkToMake>
+										<WorkToBuild>0.55</WorkToBuild>
+										<DoorOpenSpeed>1.2</DoorOpenSpeed>
+									</statFactors>
+								</stuffProps>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>/Defs/RecipeDef[defName = "MakeWoodLumberOrange"]</xpath>
+					<order>Prepend</order>
+					<value>
+						<RecipeDef ParentName="MakeWoodLumberBase">
+							<defName>MakeWoodLumberMango</defName>
+							<label>make mangowood lumber</label>
+							<description>Process raw mangowood logs into lumber for construction.</description>
+							<allowMixingIngredients>false</allowMixingIngredients>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>WoodLog_Mango</li>
+										</thingDefs>
+									</filter>
+									<count>15</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>WoodLog_Mango</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<LumberMango>30</LumberMango>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+</Patch>
