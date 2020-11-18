@@ -3,7 +3,7 @@
 
 
 <VG_IronWoodLog.label>Железная древесина</VG_IronWoodLog.label>
-<VG_IronWoodLog.description>Стволы железных деревьев. Полезна для строительства конструкций, оружия и даже простого протезирования. Сырая палка дерева может использоваться в крайнем случае как оружие. Очень прочная древесина лиственных пород. Очень красивый декоративный материал.</VG_IronWoodLog.description>
+<!-- needs updating --><VG_IronWoodLog.description>Стволы железных деревьев. Полезна для строительства конструкций, оружия и даже простого протезирования. Сырая палка дерева может использоваться в крайнем случае как оружие. Очень прочная древесина лиственных пород. Очень красивый декоративный материал.</VG_IronWoodLog.description>
 <VG_IronWoodLog.stuffProps.stuffAdjective>железного дерева</VG_IronWoodLog.stuffProps.stuffAdjective>
 
 <WoodLog_Apple.label>брёвна яблони</WoodLog_Apple.label>

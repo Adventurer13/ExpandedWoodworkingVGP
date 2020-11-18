@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<LumberIronwood.label>доски из железного дерева</LumberIronwood.label>
-<LumberIronwood.description>Обработанные доски из железного дерева. В основном применяются для создания прочных, простых конструкций и мебели. Очень прочная древесина лиственных пород.</LumberIronwood.description>
-<LumberIronwood.stuffProps.stuffAdjective>железного дерева</LumberIronwood.stuffProps.stuffAdjective>
+<VG_LumberIronwood.label>доски из железного дерева</VG_LumberIronwood.label>
+<!-- needs updating --><VG_LumberIronwood.description>Обработанные доски из железного дерева. В основном применяются для создания прочных, простых конструкций и мебели. Очень прочная древесина лиственных пород.</VG_LumberIronwood.description>
+<VG_LumberIronwood.stuffProps.stuffAdjective>железного дерева</VG_LumberIronwood.stuffProps.stuffAdjective>
 
 <LumberApple.label>доски из яблони</LumberApple.label>
 <LumberApple.description>Обработанные доски из яблони. В основном применяются для создания прочных, простых конструкций и мебели. Очень недолговечная древесина лиственных пород.</LumberApple.description>
