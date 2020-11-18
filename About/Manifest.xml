@@ -2,7 +2,7 @@
 
 <Manifest>
     <identifier>ExpandedWoodworkingVGP</identifier>
-    <version>1.1.1.0</version>
+    <version>1.2.2.0</version>
     <dependencies>
 		<li>ExpandedWoodworking</li>
 		<li>VGPVegetableGarden</li>
@@ -13,7 +13,11 @@
 	<loadAfter>
 		<li>StuffedWorkbenches</li>
 		<li>VGPGardenDrinks</li>
+		<li>VGPGardenDrinksUF</li>
+		<li>VGPGardenFabrics</li>
+		<li>VGPGardenFabricsSimplified</li>
 		<li>VGPGardenTools</li>
+		<li>VGPMoreVeggies</li>
 		<li>VGPXtraTreesandFlowers</li>
 	</loadAfter>
     <manifestUri>https://raw.githubusercontent.com/Adventurer13/ExpandedWoodworkingVGP/master/About/Manifest.xml</manifestUri>
