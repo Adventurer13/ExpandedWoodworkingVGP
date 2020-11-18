@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Cultivated and Wild Wood-Producing Fruit Trees -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantAppletree" or defName = "WildAppletree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Apple</thingClass>
+				</value>
+			</li>
+			<!-- <li Class="PatchOperationAdd"> *Changed into no longer producing wood within VG*
+				<xpath>/Defs/ThingDef[defName = "PlantOlivetree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Olive</thingClass>
+				</value>
+			</li> -->
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantorangeTree" or defName = "WildorangeTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Orange</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantPeachTree" or defName = "WildPeachTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Peach</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "DateTree" or defName = "WildDateTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.DatePalm</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "FigTree" or defName = "WildFigTree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Fig</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "Coconuttree" or defName = "WildCoconuttree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Coconut</thingClass>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "PlantCherrytree" or defName = "WildPlantCherrytree"]</xpath>
+				<value>
+					<thingClass>ExpandedWoodworkingVG.Cherry</thingClass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Bamboo/Ironwood to Wood Recipe -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipDef[defName = "MakeBambooWood" or defName = "MakeIronWood"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!-- Floors -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "IronwoodFloor"]/costList/VG_IronWoodLog</xpath>
+				<value>
+					<VG_LumberIronwood>4</VG_LumberIronwood>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "FineIronwoodFloor"]/costList/VG_IronWoodLog</xpath>
+				<value>
+					<VG_LumberIronwood>20</VG_LumberIronwood>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

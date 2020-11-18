@@ -110,7 +110,7 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipDef[defName = "MakeBambooWood"]</xpath>
+				<xpath>Defs/RecipDef[defName = "MakeBambooWood" or defName = "MakeIronWood"]</xpath>
 			</li>
 		</operations>
 	</Operation>
@@ -123,6 +123,12 @@
 				<xpath>Defs/TerrainDef[defName = "IronwoodFloor"]/costList/VG_IronWoodLog</xpath>
 				<value>
 					<VG_LumberIronwood>4</VG_LumberIronwood>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TerrainDef[defName = "FineIronwoodFloor"]/costList/VG_IronWoodLog</xpath>
+				<value>
+					<VG_LumberIronwood>20</VG_LumberIronwood>
 				</value>
 			</li>
 		</operations>

@@ -1,14 +1,10 @@
 using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 using Verse;
 
 namespace ExpandedWoodworkingVG
 {
-	public class Cherry : Plant
+    public class Cherry : Plant
 	{
 		public override void PlantCollected()
 		{
