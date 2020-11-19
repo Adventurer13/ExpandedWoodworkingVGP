@@ -5,6 +5,7 @@
 	<RecipeDef Name="MakeWoodLumberBase" Abstract="True">
 		<jobString>Processing lumber from wood.</jobString>
 		<workAmount>500</workAmount>
+		<unfinishedThingDef>UnfinishedLumber</unfinishedThingDef>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
