@@ -42,7 +42,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "Plant_TreeRandom"]/plant</xpath>
 					<value>
-						<harvestedThingDef>WoodLog_GenericTrue</harvestedThingDef>
+						<harvestedThingDef>WoodLog_Generic</harvestedThingDef>
 					</value>
 				</li>
 			</operations>
