@@ -34,18 +34,10 @@ Previous versions can be found on GitHub.
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
-		<li>CETeam.CombatExtended</li>
-		<li>cucumpear.workbenches</li>
-		<li>Daniledman.DeCore</li>
 		<li>Adventurer.ExpandWoodwork</li>
 		<li>dismarzero.VGP.VGPVegetableGarden</li>
 		<li>dismarzero.VGP.VGPGardenDrinks</li>
-		<li>dismarzero.VGP.VGPGardenDrinksUF</li>
-		<li>dismarzero.VGP.VGPGardenFabrics</li>
-		<li>dismarzero.VGP.VGPGardenFabricsSimplified</li>
 		<li>dismarzero.VGP.VGPGardenTools</li>
-		<li>dismarzero.VGP.VGPMoreVeggies</li>
-		<li>dismarzero.VGP.XtraTreesandFlowers</li>
 	</loadAfter>
 
 </ModMetaData>
