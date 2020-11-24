@@ -2,7 +2,7 @@
 
 **Current:** [v1.2.2.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.2.2.0 )
 
-## [1.2.2.0] - Unreleased
+## [1.2.2.0] - 2020-11-23
 ### New
 - Beauty values increased for each wood and lumber.
 - Assorted Tree support within VGPXtraTrees in 1.1/1.2.
