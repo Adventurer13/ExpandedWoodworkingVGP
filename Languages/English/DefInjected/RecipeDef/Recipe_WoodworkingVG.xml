@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	
-	<MakeWoodLumberIronwood.label>make ironwood lumber</MakeWoodLumberIronwood.label>
-	<MakeWoodLumberIronwood.description>Process raw ironwood logs into lumber for construction.</MakeWoodLumberIronwood.description>
-	<MakeWoodLumberIronwood.jobString>Processing lumber from wood.</MakeWoodLumberIronwood.jobString>
+	<VG_MakeWoodLumberIronwood.label>make ironwood lumber</VG_MakeWoodLumberIronwood.label>
+	<VG_MakeWoodLumberIronwood.description>Process raw ironwood logs into lumber for construction.</VG_MakeWoodLumberIronwood.description>
+	<VG_MakeWoodLumberIronwood.jobString>Processing lumber from wood.</VG_MakeWoodLumberIronwood.jobString>
 	
 	<MakeWoodLumberApple.label>make applewood lumber</MakeWoodLumberApple.label>
 	<MakeWoodLumberApple.description>Process raw applewood logs into lumber for construction.</MakeWoodLumberApple.description>

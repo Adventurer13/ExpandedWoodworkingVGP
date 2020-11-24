@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Production - Dye Barrel (optional until author makes mask, so water isn't modified by color of wood)
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>VGP Garden Dyes</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "BarrelDye"]/costList/WoodLog</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "BarrelDye"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>Woody</li>
+						</stuffCategories>
+						<costStuffCount>75</costStuffCount>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation> -->
+	
+</Patch>

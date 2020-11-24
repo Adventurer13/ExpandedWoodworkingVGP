@@ -1,6 +1,19 @@
 # Change Log
 
-**Current:** [v1.1.1.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.1.1.0 )
+**Current:** [v1.2.2.0](https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/tag/v1.2.2.0 )
+
+## [1.2.2.0] - 2020-11-23
+### New
+- Beauty values increased for each wood and lumber.
+- Assorted Tree support within VGPXtraTrees in 1.1/1.2.
+- Support for VGP Garden Drinks UF in 1.1/1.2.
+- Mango Tree support within VGP More Veggies.
+
+### Fixed
+- Fine Ironwood floor to use lumber instead of logs in 1.1/1.2.
+- Woodworking tables use updated recipe sounds when crafting lumber. 
+- PatchOperation clean-up.
+- Bamboo and Ironwood have stats closer to those in Vegetable Garden.
 
 ## [1.1.1.0] - 2020-03-08
 ### New

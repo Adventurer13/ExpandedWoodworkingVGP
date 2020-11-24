@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-<MakeWoodLumberIronwood.label>Сделать доски из железного дерева.</MakeWoodLumberIronwood.label>
-<MakeWoodLumberIronwood.description>Разделка брёвен железного дерева на доски для строительства.</MakeWoodLumberIronwood.description>
-<MakeWoodLumberIronwood.jobString>Распил брёвен на доски.</MakeWoodLumberIronwood.jobString>
+<VG_MakeWoodLumberIronwood.label>Сделать доски из железного дерева.</VG_MakeWoodLumberIronwood.label>
+<VG_MakeWoodLumberIronwood.description>Разделка брёвен железного дерева на доски для строительства.</VG_MakeWoodLumberIronwood.description>
+<VG_MakeWoodLumberIronwood.jobString>Распил брёвен на доски.</VG_MakeWoodLumberIronwood.jobString>
 
 <MakeWoodLumberApple.label>Сделать доски из яблони.</MakeWoodLumberApple.label>
 <MakeWoodLumberApple.description>Разделка брёвен яблони на доски для строительства.</MakeWoodLumberApple.description>
@@ -22,7 +22,7 @@
 <MakeWoodLumberFig.jobString>Распил брёвен на доски.</MakeWoodLumberFig.jobString>
 
 <MakeWoodLumberOrange.label>Сделать доски из апельсинового дерева.</MakeWoodLumberOrange.label>
-	<MakeWoodLumberOrange.description>Разделка брёвен апельсинового дерева на доски для строительства.</MakeWoodLumberOrange.description>
+<MakeWoodLumberOrange.description>Разделка брёвен апельсинового дерева на доски для строительства.</MakeWoodLumberOrange.description>
 <MakeWoodLumberOrange.jobString>Распил брёвен на доски.</MakeWoodLumberOrange.jobString>
 
 <MakeWoodLumberPeach.label>Сделать доски из персикового дерева.</MakeWoodLumberPeach.label>
@@ -38,7 +38,7 @@
 <MakeWoodLumberAcacia.jobString>Распил брёвен на доски.</MakeWoodLumberAcacia.jobString>
 
 <MakeWoodLumberCamellia.label>Сделать доски камелии</MakeWoodLumberCamellia.label>
-	<MakeWoodLumberCamellia.description>Разделка брёвен камелии на доски для строительства.</MakeWoodLumberCamellia.description>
+<MakeWoodLumberCamellia.description>Разделка брёвен камелии на доски для строительства.</MakeWoodLumberCamellia.description>
 <MakeWoodLumberCamellia.jobString>Распил брёвен на доски.</MakeWoodLumberCamellia.jobString>
 
 <MakeWoodLumberCherryBlossom.label>Сделать доски цветущей вишни</MakeWoodLumberCherryBlossom.label>

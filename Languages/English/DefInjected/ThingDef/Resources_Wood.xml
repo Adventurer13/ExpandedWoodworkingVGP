@@ -2,7 +2,7 @@
 <LanguageData>
 	
 	<VG_IronWoodLog.label>ironwood logs</VG_IronWoodLog.label>
-	<VG_IronWoodLog.description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable hardwood.</VG_IronWoodLog.description>
+	<VG_IronWoodLog.description>Raw wood from an ironwood tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Ironwood is a very durable and beautiful hardwood.</VG_IronWoodLog.description>
 	<VG_IronWoodLog.stuffProps.stuffAdjective>ironwood</VG_IronWoodLog.stuffProps.stuffAdjective>
 	
 	<WoodLog_Apple.label>applewood logs</WoodLog_Apple.label>
@@ -52,7 +52,7 @@
 	<WoodLog_JapaneseMaple.stuffProps.stuffAdjective>japanese maple</WoodLog_JapaneseMaple.stuffProps.stuffAdjective>
 	
 	<WoodLog_RedMaple.label>red maple logs</WoodLog_RedMaple.label>
-	<WoodLog_RedMaple.description>Raw bamboo. When processed it becomes useful for building structures, weapons, and even simple prosthetics. WoodLog_RedMaple is a perishable, fast growing grass.</WoodLog_RedMaple.description>
+	<WoodLog_RedMaple.description>Raw wood from a red maple tree. When processed it becomes useful for building structures, weapons, and even simple prosthetics. Red maple is a nondurable to perishable hardwood.</WoodLog_RedMaple.description>
 	<WoodLog_RedMaple.stuffProps.stuffAdjective>red maple</WoodLog_RedMaple.stuffProps.stuffAdjective>
 -->
 	

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 	
-	<LumberIronwood.label>ironwood lumber</LumberIronwood.label>
-	<LumberIronwood.description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable hardwood.</LumberIronwood.description>
-	<LumberIronwood.stuffProps.stuffAdjective>ironwood</LumberIronwood.stuffProps.stuffAdjective>
+	<VG_LumberIronwood.label>ironwood lumber</VG_LumberIronwood.label>
+	<VG_LumberIronwood.description>Processed ironwood lumber. Mostly useful for building long-lasting, simple structures and furniture. Ironwood is a very durable and beautiful hardwood.</VG_LumberIronwood.description>
+	<VG_LumberIronwood.stuffProps.stuffAdjective>ironwood</VG_LumberIronwood.stuffProps.stuffAdjective>
 	
 	<LumberApple.label>applewood lumber</LumberApple.label>
 	<LumberApple.description>Processed applewood lumber. Mostly useful for building long-lasting, simple structures and furniture. Applewood is a nondurable hardwood.</LumberApple.description>

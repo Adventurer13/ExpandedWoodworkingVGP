@@ -2,7 +2,7 @@
 
 <Manifest>
     <identifier>ExpandedWoodworkingVGP</identifier>
-    <version>1.1.1.0</version>
+    <version>1.2.2.0</version>
     <dependencies>
 		<li>ExpandedWoodworking</li>
 		<li>VGPVegetableGarden</li>
@@ -11,10 +11,8 @@
 		<li>ExtendedWoodworking</li>
     </incompatibleWith>
 	<loadAfter>
-		<li>StuffedWorkbenches</li>
 		<li>VGPGardenDrinks</li>
 		<li>VGPGardenTools</li>
-		<li>VGPXtraTreesandFlowers</li>
 	</loadAfter>
     <manifestUri>https://raw.githubusercontent.com/Adventurer13/ExpandedWoodworkingVGP/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/Adventurer13/ExpandedWoodworkingVGP/releases/latest</downloadUri>
